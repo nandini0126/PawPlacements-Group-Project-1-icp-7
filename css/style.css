@@ -1,0 +1,57 @@
+/* hello friends 
+   colours we are using are
+   #35185A
+   #6d32bb
+   #FFFFFF
+
+   and font is     font-family: sans-serif;  */
+
+body{
+    background-color: #6d32bb;
+    margin:0px;
+    
+}
+header{
+    background-color: #35185A;
+    width: 98%;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 2px #9e7acd;
+    position:absolute;
+    top: 15px;
+    left: 10px;
+}
+.main_logo{
+    height: 90px;
+    margin-left: 10px;
+}
+
+footer{
+    width: 100%;
+    background-color:#35185A;
+    position: absolute;
+    top: 140vh;
+    text-align: center;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    bottom: -50px;    
+}
+.card{
+    margin-top: 50vh;
+    background-color: rgb(240, 248, 255);
+    height: 50px;
+    border: 2px;
+    text-align: start;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.card_bird{
+    height: 180px;
+}
+.container card{
+    display: inline-block;
+}
