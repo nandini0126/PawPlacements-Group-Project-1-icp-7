@@ -4,25 +4,30 @@
 
    and font is     font-family: sans-serif;  */
 
-body{
-    background-color:#d6caca;
-    margin:0px;
-    
+   body {
+    background-color: #d6caca;
+    margin: 0px;
 }
-.content{                 /*use this for description or when writing info */
-     font-family: sans-serif;
-     font-size: 5px;
+
+.content {
+    /* Use this for description or when writing info */
+    font-family: sans-serif;
+    font-size: 5px;
 }
-h2{
+
+h2 {
     display: inline;
 }
-.headings{              /*using this for big headings*/
+
+.headings {
+    /* Using this for big headings */
     font-family: sans-serif;
     color: rgb(235, 234, 232);
     margin-left: 70vh;
     bottom: 50px;
 }
-header{
+
+header {
     background-color: rgb(133, 10, 200);
     width: 98%;
     display: inline;
@@ -30,53 +35,58 @@ header{
     align-items: center;
     border-radius: 10px;
     border: solid 2px #9e7acd;
-    position:absolute;
+    position: absolute;
     top: 15px;
     left: 10px;
 }
-.main_logo{
+
+.main_logo {
     height: 90px;
     margin-left: 10px;
 }
 
-footer{
+footer {
     width: 100%;
-    background-color:#35185A;
+    background-color: #35185A;
     position: absolute;
     top: 140vh;
     text-align: center;
     z-index: 1;
-    
 }
-.footer_para_1{
+
+.footer_para_1 {
     font-family: sans-serif;
 }
-.container{
+
+.container {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     height: 60vh;
     z-index: 2;
 }
-.card{
+
+.card {
     margin-top: 30vh;
     background-color: rgb(240, 248, 255);
     border: solid 1px FFFFFF;
     width: 30vh;
     margin-left: 20px;
     z-index: 3;
-  
 }
-.card_img{
+
+.card_img {
     width: 100%;
     align-items: center;
     justify-content: center;
     z-index: 3;
 }
-.card_name{
+
+.card_name {
     justify-content: center;
     text-align: center;
 }
-.container card{
+
+.container card {
     display: inline-block;
 }
