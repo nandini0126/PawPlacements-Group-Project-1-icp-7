@@ -1,13 +1,11 @@
 /* hello friends 
    colours we are using are
-   #35185A
-   #6d32bb
-   #FFFFFF
+  
 
    and font is     font-family: sans-serif;  */
 
 body{
-    background-color:FFFFFF;
+    background-color:#d6caca;
     margin:0px;
     
 }
@@ -20,12 +18,12 @@ h2{
 }
 .headings{              /*using this for big headings*/
     font-family: sans-serif;
-    color: antiquewhite;
+    color: rgb(235, 234, 232);
     margin-left: 70vh;
     bottom: 50px;
 }
 header{
-    background-color: #35185A;
+    background-color: rgb(133, 10, 200);
     width: 98%;
     display: inline;
     height: 40vh;
