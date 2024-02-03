@@ -24,7 +24,16 @@ header {
     border-bottom: solid 25px rgb(163, 2, 195);
     z-index: 0;
 }
-
+.headings{
+    color: grey;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 0;
+    
+}
 .main-logo {
     height: 180px; 
     left: 30px;
@@ -145,7 +154,7 @@ footer {
 
 .ftr li{
     margin-bottom: 15px;
-    text: white;
+   color: white;
 }
 .ftr li a{
     color: white;
@@ -154,4 +163,18 @@ footer {
 
 .fa-brands{
    width: 50%;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    align-items: baseline;
+}
+
+.banner img{
+    
+    width: 50%;
+    align-items: center;
 }
