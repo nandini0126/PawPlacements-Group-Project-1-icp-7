@@ -91,6 +91,7 @@
     border: 1px solid #6d32bb;
 }
 .cat-name{
+    font-size: 28px;
     text-align: center;
     color: #6d32bb;
 }
@@ -105,7 +106,7 @@
     align-items: center;
 }
 .card-body{
-    margin: 0 20px;
+    margin: 0 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
