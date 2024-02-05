@@ -147,17 +147,18 @@ footer {
     text-decoration: underline;
 }
 .ftr-p{
-    font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: double;
     text-decoration: double;
     font-weight: lighter;
-    align-items: center;
+    align-items:center;
 }
 
 .ftr{
     color: white;
-    text-align: center;
-    justify-content: center;
+    text-align:center;
+    justify-content:center;
 }
 
 .ftr li{
