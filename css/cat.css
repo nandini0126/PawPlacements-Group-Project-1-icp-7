@@ -1,3 +1,79 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px 0px black;
+}
+.main-logo{
+    height: 80px;
+    margin-left: 20px;
+}
+.nav-btn{
+    color: #3b1b65;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-logo{
+    width: 500px;
+}
+.nav-icon{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+.logo-home{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid black;
+}
+.signup-login{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.head-img{
+    height: 300px;
+}
+.cat-list{
+    color: #3b1b65;
+    width: 100px;
+    padding: 20px 30px;
+    background-color: #ffff;
+    border-radius: 20px 20px 60px 20px;
+}
+.head-home{
+    border-right: 2px solid white;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.head-cat-list{
+    color: white;
+    font-size: 20px;
+}
+.head-home-catlist{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 100px;
+}
+.head-left{
+    height: 300px;
+    width: 350px;
+    background-color: black;
+}
+.head{
+    display: flex;
+}
+.cat-list-btn{
+    margin-left: 190px;
+}
 .row{
     display: flex;
     justify-content: space-around;
