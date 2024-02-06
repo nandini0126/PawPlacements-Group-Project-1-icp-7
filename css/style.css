@@ -1,8 +1,9 @@
 /* hello friends 
    colours we are using are
-   #35185A
-   #6d32bb
    #FFFFFF
+   rgb(120, 154, 250);
+   #94cbff
+   #2f0468
 
    and font is     font-family: sans-serif;*/
    body {
@@ -13,7 +14,7 @@
    }
 
 header {
-    background-color: #6d32bb;
+    background-color: #94cbff;
     color: white;
     text-align: center;
     align-items: center;
@@ -21,11 +22,11 @@ header {
     position: relative;
     display: flex;
     flex-direction: row;
-    border-bottom: solid 25px rgb(163, 2, 195);
+    border-bottom: solid 25px rgb(120, 154, 250);
     z-index: 0;
 }
 .headings{
-    color: grey;
+    color:rgb(120, 154, 250);
     font-size: 40px;
     text-align: center;
     width: 100%;
@@ -35,7 +36,7 @@ header {
 }
 
 .headings-2{
-    color:#6d32bb;
+    color:#2f0468;
     font-size: 40px;
     text-align: center;
     width: 100%;
@@ -54,9 +55,9 @@ header {
 }
 
 .btn-login-signup{
-    background-color: #6d32bb;
+    background-color: #94cbff;
     color: white;
-    border: none;
+    border:none;
     padding: 10px 15px;
     margin-left: 10px;
     font-size:x-large;
@@ -87,28 +88,31 @@ h1 {
     background-color: white;
     padding-right: 12px;
     border:solid 1px ;
+    border-radius: 10%;
     margin-top: -120px;
     z-index: 2;
+    color:#2f0468;
 }
 
 .card-child:hover{
     transition: 0.3s;
     background-color: #f1f1f1;
-    border: solid  4px  rgb(163, 2, 195);
+    border: solid  4px rgb(120, 154, 250);
     margin-right: 60px;
 }
 .card-child h2 {
-    color: #6d32bb;
+    color:rgb(120, 154, 250) ;
 }
 .img{
     padding: 7px;
     width: 100%;
+    
 }
 .other-icon{
     margin-bottom: 15px;
 }
 footer {
-    background-color: #6d32bb;
+    background-color: #94cbff;
     color: white;
     justify-content:space-evenly;
     bottom: 0;
@@ -118,12 +122,12 @@ footer {
     z-index: 0;
 }
 .ftr-p1{
-    color: white;
+    color: #2f0468;
     text-align: center;
     font-size:xx-large;
     font-weight: bolder;
     display: block;
-    border-bottom: solid 20px purple;
+    border-bottom: solid 20px rgb(120, 154, 250);
     margin-top: 50px;
 }
 
@@ -135,7 +139,7 @@ footer {
 .ftr-div-box{
     position: absolute;
     display: flex;
-    color: wheat;
+    color: #2f0468;
     margin-top:0px;
     flex-direction: row;
     justify-content: space-around;
@@ -156,17 +160,17 @@ footer {
 }
 
 .ftr{
-    color: white;
+    color: #2f0468;
     text-align:center;
     justify-content:center;
 }
 
 .ftr li{
     margin-bottom: 15px;
-   color: white;
+   color: #2f0468;
 }
 .ftr li a{
-    color: white;
+    color: #2f0468;
     text-decoration:none;
 }
 
@@ -202,12 +206,12 @@ footer {
     overflow: hidden;
     justify-content: center;
     text-align: center;
-    background-color: white;
+    background-color: rgb(255, 253, 253);
 }
 
 
 .banner-child-2 h2{
-    color: #6d32bb;
+    color:rgb(120, 154, 250);
     position: absolute;
     border-radius:50%;
     padding: 50px;
@@ -216,7 +220,7 @@ footer {
     
     background-color: white;
     
-    border-top: solid 2px grey;
+    border-top: solid 2px #2f0468;
 }
 
 .banner-img-2{
@@ -225,7 +229,7 @@ footer {
 
 }
 .banner-child h2{
-    color: #6d32bb;
+    color: #2f0468;
     margin: 50px;
     height: 50px;
 }
@@ -236,7 +240,7 @@ footer {
 }
 
 .banner-child p{
-    color: grey;
+    color:rgb(120, 154, 250);
     font-weight: bolder;
     line-height: 1.8;
     padding: 15px;
@@ -248,15 +252,15 @@ footer {
 
 .learn-more-btn {
     padding: 10px 20px;
-    color: #6d32bb;
+    color: rgb(120, 154, 250);
     font-weight: bold;
     text-decoration: none;
-    border:solid 2px #6d32bb;
+    border:solid 2px #2f0468;
     border-radius: 15px;
     transition: background-color 0.3s ease;
 }
 
 .learn-more-btn:hover {
-    background-color: #6d32bb;
+    background-color:#94cbff;
     color: white;
 }
