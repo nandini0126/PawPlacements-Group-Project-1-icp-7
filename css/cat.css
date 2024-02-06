@@ -124,13 +124,13 @@
     position: relative;
 }
 .btn{
-    height: 40px;
+    height: 30px;
     background-color: #ba9ae4;
     border: none;
     border-radius: 10px;
     color: #3b1b65;
-    font-size: 15px;
-    font-weight: bolder;
+    font-size: 13px;
+    font-weight:bolder;
 }
 .button{
     display: flex;
@@ -138,4 +138,46 @@
     position: absolute;
     bottom: -20px;
     left: 100px;
+    margin: 3%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color:#ba9ae4;
+    color:black 
+}
+
+nav ul {
+    list-style: none; 
+    display: flex; 
+}
+
+nav ul li {
+    margin-right: 50px; 
+    padding: 1%;
+}
+
+nav ul li a {
+    text-decoration:dashed ;
+    color:black;
+}
+
+nav ul li a:hover {
+    color:blue; 
+}
+.head-name{
+    float: right;
+    position:fixed;
+    top:0;
+    right:0;
+    padding-top: 1%;
+    padding-right: 3%;
+    font-size: 20px;
+    
+  @import url ('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+  font-family: 'Courgette', cursive;
 }
