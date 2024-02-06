@@ -5,7 +5,11 @@
    #94cbff
    #2f0468
 
-   and font is     font-family: sans-serif;*/
+  google fonts :
+   PT serif
+   single day
+ sans-serif;*/
+
    body {
     margin: 0;
     padding: 0;
@@ -26,13 +30,15 @@ header {
     z-index: 0;
 }
 .headings{
-    color:rgb(120, 154, 250);
+    color:#2f0468;
     font-size: 40px;
     text-align: center;
     width: 100%;
     background-color: white;
     padding-top: 30px;
     margin-bottom: 0;
+    @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+  font-family: 'PT Serif', serif;
 }
 
 .headings-2{
@@ -42,6 +48,9 @@ header {
     width: 100%;
     padding-top: 30px;
     margin-bottom: 0;
+    
+  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+  font-family: 'PT Serif', serif;
 }
 .main-logo {
     height: 180px; 
@@ -60,19 +69,30 @@ header {
     border:none;
     padding: 10px 15px;
     margin-left: 10px;
-    font-size:x-large;
+    font-size:20px;
     font-weight: bolder;
     transition: 0.3s;
 }
 .btn-login-signup:hover{
     text-decoration:underline;
     margin-bottom: 10px;
+    
 }
 
 h1 {
     margin-top: 20px;
     margin-left: 120px;
+    @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Single+Day&display=swap');
+  font-family: 'Single Day', cursive;
 }
+h2 {
+    
+    
+    @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Single+Day&display=swap');
+  font-family: 'Single Day', cursive;
+
+}
+
 
 .card-parent {
     display: flex;
@@ -149,6 +169,11 @@ footer {
 .ftr-p:hover{
     transition: 0.3s;
     text-decoration: underline;
+}
+.ftr-p1{
+    
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Single+Day&display=swap');
+  font-family: 'Single Day', cursive;
 }
 .ftr-p{
     font-size: 30px;
