@@ -47,26 +47,27 @@
     border-radius: 20px 20px 60px 20px;
 }
 .head-home{
-    border-right: 2px solid white;
-    color: #ffff;
+    color: #3b1b65;
     text-decoration: none;
     font-size: 20px;
+    font-weight: bold;
 }
 .head-cat-list{
-    color: white;
+    color: #3b1b65;
     font-size: 20px;
+    font-weight: bold;
 }
 .head-home-catlist{
     width: 200px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 .head-left{
     height: 300px;
     width: 350px;
-    background-color: black;
+    background-color: #ba9ae4;
 }
 .head{
     display: flex;
