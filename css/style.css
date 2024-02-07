@@ -1,291 +1,38 @@
-/* hello friends 
-   colours we are using are
-   #FFFFFF
-   rgb(120, 154, 250);
-   #94cbff
-   #2f0468
+/*
+colors we are using
+skyblue:#94cbff
+purple:#2f0468
+faint purple: #6509dc
+*/
 
-  google fonts :
-   PT serif
-   single day
- sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
 
-   body {
+body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    background-color: #f1f1f1;
-   }
-
-header {
+}
+.navbar{
     background-color: #94cbff;
-    color: white;
-    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    border-bottom: solid 25px rgb(120, 154, 250);
-    z-index: 0;
 }
-.headings{
-    color:#2f0468;
-    font-size: 40px;
-    text-align: center;
-    width: 100%;
-    background-color: white;
-    padding-top: 30px;
-    margin-bottom: 0;
-    @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
-  font-family: 'PT Serif', serif;
+.logo{
+    height: 80px;
 }
-
-.headings-2{
-    color:#2f0468;
-    font-size: 40px;
-    text-align: center;
-    width: 100%;
-    padding-top: 30px;
-    margin-bottom: 0;
-    
-  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
-  font-family: 'PT Serif', serif;
-}
-.main-logo {
-    height: 180px; 
-    left: 30px;
-}
-
-.header-div {
-    position: absolute;
-    right: 10px;
-    
-}
-
-.btn-login-signup{
-    background-color: #94cbff;
-    color: white;
-    border:none;
-    padding: 10px 15px;
-    margin-left: 10px;
-    font-size:20px;
-    font-weight: bolder;
-    transition: 0.3s;
-}
-.btn-login-signup:hover{
-    text-decoration:underline;
-    margin-bottom: 10px;
-    
-}
-
-h1 {
-    margin-top: 20px;
-    margin-left: 120px;
-    @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Single+Day&display=swap');
-  font-family: 'Single Day', cursive;
-}
-h2 {
-    
-    
-    @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Single+Day&display=swap');
-  font-family: 'Single Day', cursive;
-
-}
-
-
-.card-parent {
-    display: flex;
-    flex-direction:row;
-    justify-content:flex-end;
-    padding: 20px;
-}
-
-.card-child{
-    text-align: center;
-    margin-right: 50px;
-    width: 40vh;
-    background-color: white;
-    padding-right: 12px;
-    border:solid 1px ;
-    border-radius: 10%;
-    margin-top: -120px;
-    z-index: 2;
-    color:#2f0468;
-}
-
-.card-child:hover{
-    transition: 0.3s;
-    background-color: #f1f1f1;
-    border: solid  4px rgb(120, 154, 250);
-    margin-right: 60px;
-}
-.card-child h2 {
-    color:rgb(120, 154, 250) ;
-}
-.img{
-    padding: 7px;
-    width: 100%;
-    
-}
-.other-icon{
-    margin-bottom: 15px;
-}
-footer {
-    background-color: #94cbff;
-    color: white;
-    justify-content:space-evenly;
-    bottom: 0;
-    height:400px;
-    width: 100%;
-    position: relative;
-    z-index: 0;
-}
-.ftr-p1{
-    color: #2f0468;
-    text-align: center;
-    font-size:xx-large;
-    font-weight: bolder;
-    display: block;
-    border-bottom: solid 20px rgb(120, 154, 250);
-    margin-top: 50px;
-}
-
-.ftr-div-box:hover{
-    transition: 0.3s;
-    font-weight: bolder;
-}
-
-.ftr-div-box{
-    position: absolute;
-    display: flex;
-    color: #2f0468;
-    margin-top:0px;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.ftr-p:hover{
-    transition: 0.3s;
-    text-decoration: underline;
-}
-.ftr-p1{
-    
-  @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Single+Day&display=swap');
-  font-family: 'Single Day', cursive;
-}
-.ftr-p{
-    font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: double;
-    text-decoration: double;
-    font-weight: lighter;
-    align-items:center;
-}
-
-.ftr{
-    color: #2f0468;
-    text-align:center;
-    justify-content:center;
-}
-
-.ftr li{
-    margin-bottom: 15px;
-   color: #2f0468;
-}
-.ftr li a{
-    color: #2f0468;
-    text-decoration:none;
-}
-
-.fa-brands{
-   width: 50%;
-}
-
-.banner{
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    background-color: white;
-    padding-top: 40px;
-    height: 80vh;
-}
-
-.banner-2{
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    padding-top: 40px;
-    height: 80vh;
-
-}
-
-.banner-child-2{
-    
-    border-radius: 20px;
-    width:285px;
-    margin: 15px;
-    height: 500px;
-    position: relative;
-    overflow: hidden;
-    justify-content: center;
-    text-align: center;
-    background-color: rgb(255, 253, 253);
-}
-
-
-.banner-child-2 h2{
-    color:rgb(120, 154, 250);
-    position: absolute;
-    border-radius:50%;
-    padding: 50px;
-    left: 60px;
-    bottom: 100px;
-    
-    background-color: white;
-    
-    border-top: solid 2px #2f0468;
-}
-
-.banner-img-2{
-    width: 100%;
-    border-bottom: solid 2px grey;
-
-}
-.banner-child h2{
-    color: #2f0468;
-    margin: 50px;
-    height: 50px;
-}
-.banner-child{
-    width: 400px;
-    justify-items: center;
-    text-align: center;
-}
-
-.banner-child p{
-    color:rgb(120, 154, 250);
-    font-weight: bolder;
-    line-height: 1.8;
-    padding: 15px;
-    height: 100px;
-}
-.banner-img{
-    width:100px;
-}
-
-.learn-more-btn {
-    padding: 10px 20px;
-    color: rgb(120, 154, 250);
-    font-weight: bold;
+.nav-text{
+    color: #94cbff;
     text-decoration: none;
-    border:solid 2px #2f0468;
-    border-radius: 15px;
-    transition: background-color 0.3s ease;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #2f0468;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
 }
-
-.learn-more-btn:hover {
-    background-color:#94cbff;
-    color: white;
+.nav-text:hover{
+    box-shadow: 0 0 10px 2px #6509dc;
+    transition: 0.5s;
 }
