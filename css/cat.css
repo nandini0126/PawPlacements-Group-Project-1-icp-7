@@ -8,7 +8,44 @@
   google fonts :
    PT serif
    single day
- sans-serif;*/
+ sans-serif;
+ 
+ <div class="nav-bar">
+        <div class="logo-home">
+            <div class="nav-logo">
+                <img src="../img/main_logo.jpg" class="main-logo">
+            </div>
+            <div class="nav-icon">
+                <a href="../index.html" class="nav-btn home">Home</a>
+                <i class="fa-solid fa-magnifying-glass" style="color: #3b1b65;"></i>
+                <i class="fa-solid fa-cart-shopping" style="color: #3b1b65;"></i>
+            </div>
+        </div>
+        <div class="signup-login">
+            <a href="sign_up.html" class="nav-btn signup">Sign Up</a>
+            <a href="login.html" class="nav-btn login">Login</a>
+        </div>
+        
+        <div class="head">
+        <div class="head-left">
+            <div class="cat-list-btn">
+                <h2 class="cat-list">Cat List</h2>
+            </div>
+            <div class="head-home-catlist">
+                <div class="Head-Home">
+                    <a href="../index.html" class="head-home">Home</a>
+                </div>
+                <div class="Head-catlist">
+                    <p class="head-cat-list">Cat List</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="head-right">
+            <img src="../img/cat_background.jpg" class="head-img">
+        </div>
+
+    </div>*/
 
 
 
@@ -106,11 +143,15 @@
     width: 300px;
     height: 185px;
     border: 1px solid #2f0468;
+    padding:2%;
 }
 .cat-name{
     font-size: 28px;
     text-align: center;
-    color: rgb(120, 154, 250);
+    color: #2f0468;
+    @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Single+Day&display=swap');
+  font-family: 'Single Day', cursive;
+
 }
 .cat-about{
     display: flex;
@@ -142,20 +183,26 @@
 }
 .btn{
     height: 30px;
-    background-color: rgb(120, 154, 250);
-    border: none;
+    background-color:white;
+    border:2px solid #2f0468;
     border-radius: 10px;
-    color: rgb(12);
+    color: rgb(120, 154, 250);
     font-size: 13px;
     font-weight:bolder;
+    
 }
 .button{
-    display: flex;
+    display:flex;
     justify-content: center;
     position: absolute;
     bottom: -20px;
     left: 100px;
-    margin: 3%;
+    
+    
+}
+.btn:hover {
+    background-color:#94cbff;
+    color:white;
 }
 * {
     margin: 0;
@@ -191,7 +238,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color:rgb(120, 154, 250); 
+    color:black;
+    text-decoration: underline; 
     
 }
 .head-name{
@@ -206,3 +254,5 @@ nav ul li a:hover {
   @import url ('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
   font-family: 'Courgette', cursive;
 }
+
+        
