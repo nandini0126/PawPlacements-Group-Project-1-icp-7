@@ -10,13 +10,6 @@
    single day
  sans-serif;*/
  
-<<<<<<< HEAD
- */
-
-
-
-.nav-bar{
-=======
 
 .header{
     position: fixed;
@@ -25,7 +18,6 @@
     width: 100%;
     padding: 0px 0px;
     background-color: rgb(120, 154, 250);
->>>>>>> c800189cc705cdf438f04895e862a47c3ab240b1
     display: flex;
     justify-content: space-between;
     align-items: center;
