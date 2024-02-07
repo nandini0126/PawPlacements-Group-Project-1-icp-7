@@ -1,0 +1,101 @@
+.container{
+    max-width: 960px;
+    margin: auto;
+    margin-top: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 1.5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: #082046;
+    box-shadow: 0 0 3px 3px #99a0ac;
+}
+.form{
+    padding: 20px;
+}
+.form h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+.Contact{
+    display: grid;
+    row-gap: 1rem;
+}
+.Contact input
+.Contact textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 0.4rem;
+}
+.Contact textarea{
+    resize: none;
+    height: 200px;
+}
+.Contact .btn {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #00dbde;
+}
+.maps iframe{
+    width: 100%;
+    height: 100%;
+}
+.d{
+    color: white;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.info p{
+        margin: 0;
+}
+.a{
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid hsl(0, 0%, 5%);
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.b{
+   background-color: #7fbffa;
+   width: 70px;
+   height: 25px;
+   border-radius: 5px;
+   border: 2px solid #0c65f5;
+   box-shadow: 0 0 3px 2px #0c65f5;  
+}
+.social ul li{
+   display: block;
+   margin: 5px;
+   text-align: left;
+   padding: 5px;
+   border-radius: 0 10px 10px 0;
+   transition: all 1s;
+   
+}
+.social ul li:hover{
+   transform: translate(110px,o);
+   background: rgba(255, 255, 255, 0.4);
+}
+button{
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
