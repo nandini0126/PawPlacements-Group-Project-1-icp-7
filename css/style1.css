@@ -11,6 +11,9 @@
     background-color: #082046;
     box-shadow: 0 0 3px 3px #99a0ac;
 }
+body{
+    background-color: #0c65f5;
+}
 .form{
     padding: 20px;
 }
@@ -98,5 +101,8 @@
 button{
     border-radius: 3px;
     border: 2px solid black;
+}
+.btn{
+    margin: 20px;
 }
 
