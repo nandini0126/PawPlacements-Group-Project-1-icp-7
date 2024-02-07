@@ -22,17 +22,19 @@ body{
     height: 80px;
 }
 .nav-text{
-    color: #94cbff;
+    color: #2f0468;
     text-decoration: none;
     font-family: "Aclonica", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: #2f0468;
-    border-radius: 20px;
+    font-size: 18px;
     padding: 15px;
     margin: 10px;
+    border-radius: 20px;
 }
 .nav-text:hover{
-    box-shadow: 0 0 10px 2px #6509dc;
+    color: #94cbff;
+    background-color: #2f0468;
+    border-radius: 20px;
     transition: 0.5s;
 }
