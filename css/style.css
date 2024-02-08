@@ -6,10 +6,13 @@ faint purple: #6509dc
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 body{
     margin: 0;
     padding: 0;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .navbar{
     background-color: #94cbff;
@@ -24,9 +27,6 @@ body{
 .nav-text{
     color: #2f0468;
     text-decoration: none;
-    font-family: "Aclonica", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 18px;
     padding: 15px;
     margin: 10px;
@@ -36,5 +36,51 @@ body{
     color: #94cbff;
     background-color: #2f0468;
     border-radius: 20px;
+<<<<<<< HEAD
     transition: 0.4s;
 }
+=======
+    transition: 0.5s;
+}
+.head{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+}
+.tagline{
+    color: #2f0468;
+    border-radius: 10px;
+    width: 300px;
+}
+.head-left{
+    border-radius: 10px;
+    padding: 20px;
+}
+.btn{
+    background-color: #2f0468;
+    color: #94cbff;
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+.section-icon{
+    height: 200px;
+}
+.section-card{
+    border: 2px solid #2f0468;
+    height: 230px;
+    padding: 20px;
+    text-align: center;
+}
+.section-card:hover{
+    box-shadow: 0px 0px 20px 3px black;
+}
+>>>>>>> aa57471642fca8020dec2c56da0efe973b004385
