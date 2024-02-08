@@ -36,11 +36,7 @@ body{
     color: #94cbff;
     background-color: #2f0468;
     border-radius: 20px;
-<<<<<<< HEAD
     transition: 0.4s;
-}
-=======
-    transition: 0.5s;
 }
 .head{
     display: flex;
@@ -83,4 +79,3 @@ body{
 .section-card:hover{
     box-shadow: 0px 0px 20px 3px black;
 }
->>>>>>> aa57471642fca8020dec2c56da0efe973b004385
