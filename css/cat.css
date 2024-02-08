@@ -167,7 +167,7 @@ body{
     transform: scale(1.1);
 }   
 
-.learn-more-btn {
+.learn-more-button {
     padding: 10px 20px;
     color: #6d32bb;
     font-weight: bold;
@@ -179,7 +179,7 @@ body{
     font-style: normal;
 }
 
-.learn-more-btn:hover {
+.learn-more-button:hover {
     background-color: #6d32bb;
     color: white;
     transition: 0.3s ease;
@@ -242,4 +242,8 @@ body{
 select option:checked{
     background-color: #2f0468;
     font-weight: bolder;
+}
+
+.footer{
+    margin-top: 500px;
 }
