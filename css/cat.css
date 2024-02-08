@@ -39,7 +39,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 .cat-img{
     height: 300px;
@@ -109,7 +109,7 @@
     justify-content: center;
     position: absolute;
     bottom: -20px;
-    left: 100px;
+    left: 85px;
 }
 
 .btn:hover{
@@ -167,37 +167,79 @@ body{
     transform: scale(1.1);
 }   
 
+.learn-more-btn {
+    padding: 10px 20px;
+    color: #6d32bb;
+    font-weight: bold;
+    text-decoration: none;
+    border:solid 2px #6d32bb;
+    border-radius: 15px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.learn-more-btn:hover {
+    background-color: #6d32bb;
+    color: white;
+    transition: 0.3s ease;
+}
+
   /*******************************/
 
   .dropdown-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: row;
+    background-color: #6d32bb;
+   justify-content: space-around;
   }
-  
-  .dropdown-section {
-    flex: 1;
-    padding: 20px;
+  .dropdown-container-heading{
+    width: 100%;
+    padding: 10px 0px;
     text-align: center;
+    margin-top: -16px;
+    background-color: #6d32bb;
     color: white;
+    font-size: 25px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
   }
+  .dropdown-section {
+    width: 100%;
+    
+}
   
-  .dropdown-section h2 {
+  .dropdown-container h2 {
     margin-bottom: 10px;
+    
   }
   
   select {
+    text-align: center;
     width: 100%;
-    padding: 10px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 15px;
+    background-color: #6d32bb;
     border: none;
-    border-radius: 5px;
-    background-color: white;
-    color: #2f0468;
-    cursor: pointer;
+    color: white;
+
+
   }
   
   select option {
-    background-color: white;
-    color: #2f0468;
+   width: 100%;
+   font-family: "Aclonica", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+    background-color: #2f0468;
+    color: white;
   }
-  
+select option:checked{
+    background-color: #2f0468;
+    font-weight: bolder;
+}
