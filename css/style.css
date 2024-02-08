@@ -6,7 +6,6 @@ faint purple: #6509dc
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -42,6 +41,9 @@ body{
     display: flex;
     align-items: center;
     margin: 10px 20px;
+}
+.hamburger{
+    height: 50px;
 }
 .tagline{
     color: #2f0468;
@@ -123,11 +125,10 @@ body{
 .banner-about{
     text-align: center;
     margin-top: 40px;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
 .learn-more-btn {
-    margin: 10px 110px;
+    margin: 30px 110px;
     padding: 10px 20px;
     color: #6d32bb;
     font-weight: bold;
@@ -194,4 +195,17 @@ body{
 h4{
     font-size: 22px;
 
+}
+@media screen and (max-width: 768px){
+    .hamburger{
+        visibility: visible;
+    }
+    .link{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px){
+    .hamburger{
+        visibility: hidden;
+    }
 }

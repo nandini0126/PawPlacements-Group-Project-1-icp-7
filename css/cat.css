@@ -11,7 +11,8 @@
    single day
  sans-serif;*/
  
-
+ @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
+ 
 .header{
     position: fixed;
     top: 0;
@@ -98,8 +99,6 @@
     bottom: -20px;
     left: 100px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
-
 body{
     margin: 0;
     padding: 0;
@@ -131,4 +130,54 @@ body{
     border-radius: 20px;
     transition: 0.4s;
 }
-        
+.footer{
+    margin-top: 30px;
+    background-color: #94cbff;
+    padding: 20px;
+}
+.footer-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display: block;
+}
+.footer-main-logo{
+    width: 250px;
+}
+.footer-logo-section{
+    width: 250px;
+    color: #2f0468;
+    margin-top: 20px;
+}
+.footer-contact{
+    width: 300px;
+}
+.quick-links-contain{
+    text-decoration: none;
+    color: #2f0468;
+}
+.footer-social{
+    text-align: center;
+}
+.social-text{
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.contact-info{
+    color: #2f0468;
+    display: flex;
+    margin-top: 10px;
+}
+.contact-text{
+    text-decoration: none;
+    color: #2f0468;
+    margin-left: 10px;
+}
+h4{
+    font-size: 22px;
+
+}

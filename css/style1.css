@@ -148,11 +148,12 @@ body{
     padding: 3px;
 }
 .c:hover{
-    background-color: #81ced6color: black;
+    background-color: #81ced6;
+    color: black;
     text-align: center;
     width: 90px;
     background-color: white;
-    border-radius: 5px;;
+    border-radius: 5px;
     border: 0.3px solid #0f7d8a;
     box-shadow: 0 0 3px 3px #b0a8a7;
     padding: 4px;
