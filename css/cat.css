@@ -1,15 +1,24 @@
-/* hello friends 
-   colours we are using are
-   #FFFFFF
-   rgb(120, 154, 250);
-   #94cbff
-   #2f0468
-   #6509dc
+/* /*
+colors we are using
+skyblue:#94cbff
+purple:#2f0468
+faint purple: #6509dc
 
-  google fonts :
+.btn{
+    height: 40px;
+    background-color: ;
+    border: none;
+    border-radius: 10px;
+    color: #3b1b65;
+    font-size: 15px;
+    font-weight: bolder;
+
+    google fonts :
    PT serif
    single day
- sans-serif;*/
+ sans-serif;
+*/
+  
  
 
 .header{
@@ -18,7 +27,7 @@
     left: 0;
     width: 100%;
     padding: 0px 0px;
-    background-color: rgb(120, 154, 250);
+    background-color: #6509dc;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,11 +57,12 @@
     border-radius: 10px;
     width: 300px;
     height: 185px;
-    border: 1px solid #6d32bb;
+    border: 1px solid #2f0468;
+    
 }
 .cat-name{
     text-align: center;
-    color: #6d32bb;
+    color:#2f0468;
 }
 .cat-about{
     display: flex;
@@ -63,13 +73,15 @@
     display: flex;
     justify-content: start;
     align-items: center;
+
 }
 .card-body{
     margin: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #2f0468;
+    
 }
 .rating-img{
     height: 100px;
@@ -78,19 +90,31 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 .container{
     position: relative;
+    
 }
-.btn{
-    height: 40px;
-    background-color: #ba9ae4;
-    border: none;
-    border-radius: 10px;
-    color: #3b1b65;
-    font-size: 15px;
-    font-weight: bolder;
+.btn {
+    margin: 10px -10px;
+    padding: 10px 20px;
+    color: #6d32bb;
+    font-weight: bold;
+    text-decoration: none;
+    border:solid 2px #6d32bb;
+    border-radius: 15px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
+.btn:hover{
+    background-color: #6d32bb;
+    color: white;
+    transition: 0.3s ease;
+}
+
 .button{
     display: flex;
     justify-content: center;
@@ -131,4 +155,3 @@ body{
     border-radius: 20px;
     transition: 0.4s;
 }
-        
