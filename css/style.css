@@ -36,12 +36,8 @@ body{
     color: #94cbff;
     background-color: #2f0468;
     border-radius: 20px;
-<<<<<<< HEAD
-    transition: 0.4s;
-}
-=======
     transition: 0.5s;
-}
+}    
 .head{
     display: flex;
     align-items: center;
@@ -67,20 +63,135 @@ body{
     font-style: normal;
     font-size: 16px;
 }
+.section-tagline{
+    color: #2f0468;
+    text-align: center;
+    margin-top: 60px;
+}
 .section{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
 }
 .section-icon{
-    height: 200px;
+    height: 100px;
 }
 .section-card{
     border: 2px solid #2f0468;
-    height: 230px;
+    width: 150px;
     padding: 20px;
     text-align: center;
+    border-radius: 50%;
 }
 .section-card:hover{
     box-shadow: 0px 0px 20px 3px black;
+    transition: 0.5s;
 }
->>>>>>> aa57471642fca8020dec2c56da0efe973b004385
+.main-banner{
+    margin-top: 60px;;
+    padding: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.banner-head{
+    text-align: center;
+    font-size: 35px;
+    color: #2f0468;
+}
+.banner-child{
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px black;
+}
+.banner-img{
+    height: 100px;
+    margin-left: 120px;
+}
+.banner-containts1{
+    text-align: center;
+    color: #2f0468;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.banner-about{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.learn-more-btn {
+    margin: 10px 110px;
+    padding: 10px 20px;
+    color: #6d32bb;
+    font-weight: bold;
+    text-decoration: none;
+    border:solid 2px #6d32bb;
+    border-radius: 15px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.learn-more-btn:hover {
+    background-color: #6d32bb;
+    color: white;
+    transition: 0.3s ease;
+}
+.footer{
+    margin-top: 30px;
+    background-color: #94cbff;
+    padding: 20px;
+}
+.footer-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display: block;
+}
+.footer-main-logo{
+    width: 250px;
+}
+.footer-logo-section{
+    width: 250px;
+    color: #2f0468;
+    margin-top: 20px;
+}
+.footer-contact{
+    width: 300px;
+}
+.quick-links-contain{
+    text-decoration: none;
+    color: #2f0468;
+}
+.footer-social{
+    text-align: center;
+}
+.social-text{
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.contact-info{
+    color: #2f0468;
+    display: flex;
+    margin-top: 10px;
+}
+.contact-text{
+    text-decoration: none;
+    color: #2f0468;
+    margin-left: 10px;
+}
+h4{
+    font-size: 22px;
+
+}
