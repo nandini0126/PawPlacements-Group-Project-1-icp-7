@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 .container{
-    margin: auto;
+    margin: 20px;
     display: flex;
     flex-direction: row;
-    border-radius: 15px;
     overflow: hidden;
     border: 2px solid #2f0468;
 }
@@ -45,6 +44,7 @@
     text-align: center;
     margin: 20px;
     border: 2px solid #2f0468;
+    padding: 40px 25px;
     }
 .info:hover{
     border-radius: 10px;
@@ -123,40 +123,6 @@ body{
     border-radius: 7px;;
     color: black;
 }
-
-.icon{
-  width:30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 1.2px solid black;  
-}
-.icon:hover{
-    background-color: ghostwhite;
-    border: none;
-    box-shadow: 0 0 6px 6px #b0a8a7;
-    width:40px;
-   height: 40px;
-   border-radius: 50%;
-}
-.c{
-    color: black;
-    text-align: center;
-    width: 80px;
-    background-color: #94cbff;
-    border-radius: 5px;
-    border: 0.8px solid #7e9aa6;
-    padding: 3px;
-}
-.c:hover{
-    background-color: #81ced6color: black;
-    text-align: center;
-    width: 90px;
-    background-color: white;
-    border-radius: 5px;;
-    border: 0.3px solid #0f7d8a;
-    box-shadow: 0 0 3px 3px #b0a8a7;
-    padding: 4px;
-}
 .int{
     border: 1.6px solid black;
     height: 30px;
@@ -211,4 +177,55 @@ button{
 .btn{
     margin: 20px;
 }
+.img{
+    height: 330px;
+    padding: 40px 20px;
+}
+.m{
+    padding: 10px;
+}
+.footer{
+    margin-top: 30px;
+    background-color: #94cbff;
+    padding: 20px;
+}
+.footer-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display: block;
+}
+.footer-main-logo{
+    width: 250px;
+}
+.footer-logo-section{
+    width: 250px;
+    color: #2f0468;
+    margin-top: 20px;
+}
+.footer-contact{
+    width: 300px;
+}
+.quick-links-contain{
+    text-decoration: none;
+    color: #2f0468;
+}
+.footer-social{
+    text-align: center;
+}
+.social-text{
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
+}
+.contact-info{
+    color: #2f0468;
+    display: flex;
+    margin-top: 10px;
+}
+.map{
+    display: flex;
+}
