@@ -4,6 +4,7 @@
    rgb(120, 154, 250);
    #94cbff
    #2f0468
+   #6509dc
 
   google fonts :
    PT serif
@@ -96,5 +97,38 @@
     position: absolute;
     bottom: -20px;
     left: 100px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #94cbff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 80px;
+}
+.nav-text{
+    color: #2f0468;
+    text-decoration: none;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.nav-text:hover{
+    color: #94cbff;
+    background-color: #2f0468;
+    border-radius: 20px;
+    transition: 0.4s;
 }
         
