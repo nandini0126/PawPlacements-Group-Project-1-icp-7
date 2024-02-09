@@ -13,30 +13,6 @@
     box-shadow: 0px 0px 20px 3px black;
     overflow: hidden;
 }
-@media (max-width: 800px) {
-  .container {
-    margin: 20px;
-    padding: 0;
-    height: 800px;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-  }
-  .form {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 300px;
-    left: 20px;
-  }
-  .img{
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 300px;
-    left: 20px;
-  }
-}
 .navbar{
     background-color: #94cbff;
     padding: 20px;
