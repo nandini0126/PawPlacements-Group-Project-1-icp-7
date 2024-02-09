@@ -148,7 +148,8 @@ body{
     padding: 3px;
 }
 .c:hover{
-    background-color: #81ced6color: black;
+    background-color: #81ced6;
+    color: black;
     text-align: center;
     width: 90px;
     background-color: white;
@@ -210,5 +211,10 @@ button{
 }
 .btn{
     margin: 20px;
+}
+.contact-info{
+    color: #2f0468;
+    display: flex;
+    margin-top: 10px;
 }
 
