@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    border-color: black;
+    
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color:#FFF;
+    padding: 20px;
+    border-radius: 16px 100px;
+    box-shadow: 0 5px 10px  5px skyblue;
+    flex-wrap: wrap;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: 0 0 1px 1px gray;
+}
+
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #3b1b65;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 160px;
+}
+
+button:hover {
+    background-color: #3b1b65;
+}
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        
+        nav {
+            background-color:#94cbff;
+            color:#2f0468; 
+            
+        }
+        
+        nav ul {
+            list-style: none; 
+            display: flex; 
+            
+        }
+        
+        nav ul li {
+            margin-right: 60px; 
+            padding: 2%;
+            
+            
+        }
+        
+        nav ul li a {
+            text-decoration:dashed ;
+            color:#2f0468;
+            font-size: 17px;
+            
+            
+        }
+        
+        nav ul li a:hover {
+            color:black;
+            text-decoration: underline; 
+            
+        }
+        .head-name{
+            float: right;
+            position:fixed;
+            top:0;
+            right:0;
+            padding-top: 1%;
+            padding-right: 3%;
+            font-size: 28px;
+            
+          @import url ('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+          font-family: 'Courgette', cursive;
+        }
+        .footer{
+            margin-top: 30px;
+            background-color: #94cbff;
+            padding: 20px;
+        }
+        .footer-container{
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .card{
+            display: block;
+        }
+        .footer-main-logo{
+            width: 250px;
+        }
+        .footer-logo-section{
+            width: 250px;
+            color: #2f0468;
+            margin-top: 20px;
+        }
+        .footer-contact{
+            width: 300px;
+        }
+        .quick-links-contain{
+            text-decoration: none;
+            color: #2f0468;
+        }
+        .footer-social{
+            text-align: center;
+        }
+        .social-text{
+            font-family: "Aclonica", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        
+        }
+        .contact-info{
+            color: #2f0468;
+            display: flex;
+            margin-top: 10px;
+        }
+        .contact-text{
+            text-decoration: none;
+            color: #2f0468;
+            margin-left: 10px;
+        }
+        h4{
+            font-size: 22px;
+        
+        }
+            
+            
+            
+            
+       
+        

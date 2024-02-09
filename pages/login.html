@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Adoption Login</title>
+    <link rel="stylesheet" href="style1.css">
+
     <style>
         body {
     font-family: Arial, sans-serif;
@@ -15,7 +17,7 @@
     padding: 20px;
     border: 1px solid black;
     border-radius: 50px;
-    box-shadow: 0 0 2px 2px black;
+    box-shadow: 0 5px 10px  5px skyblue;
     border-radius: 20px 150px;
 }
 
@@ -49,36 +51,155 @@ button {
 
 
 button {
-    background-color: #007bff;
+    background-color:  #3b1b65;
     color: #fff;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color:  #3b1b65;
 }
 
 footer {
     margin-top: 20px;
     text-align: center;
 }
-body{
-
-            background-image: url(https://www.warrenphotographic.co.uk/photography/bigs/03596-White-cat-white-background.jpg);
-          
-
+* {
+            margin: 0;
+            padding: 0;
         }
+        
+        
+        nav {
+            background-color:#94cbff;
+            color:#2f0468; 
+            
+        }
+        
+        nav ul {
+            list-style: none; 
+            display: flex; 
+            
+        }
+        
+        nav ul li {
+            margin-right: 60px; 
+            padding: 2%;
+            
+            
+        }
+        
+        nav ul li a {
+            text-decoration:dashed ;
+            color:#2f0468;
+            font-size: 17px;
+            
+            
+        }
+        
+        nav ul li a:hover {
+            color:black;
+            text-decoration: underline; 
+            
+        }
+        .head-name{
+            float: right;
+            position:fixed;
+            top:0;
+            right:0;
+            padding-top: 1%;
+            padding-right: 3%;
+            font-size: 28px;
+            
+          @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+          font-family: 'Courgette', cursive;
+        }
+        .footer{
+            margin-top: 30px;
+            background-color: #94cbff;
+            padding: 20px;
+        }
+        .footer-container{
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .card{
+            display: block;
+        }
+        .footer-main-logo{
+            width: 250px;
+        }
+        .footer-logo-section{
+            width: 250px;
+            color: #2f0468;
+            margin-top: 20px;
+        }
+        .footer-contact{
+            width: 300px;
+        }
+        .quick-links-contain{
+            text-decoration: none;
+            color: #2f0468;
+        }
+        .footer-social{
+            text-align: center;
+        }
+        .social-text{
+            font-family: "Aclonica", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        
+        }
+        .contact-info{
+            color: #2f0468;
+            display: flex;
+            margin-top: 10px;
+        }
+        .contact-text{
+            text-decoration: none;
+            color: #2f0468;
+            margin-left: 10px;
+        }
+        h4{
+            font-size: 22px;
+        
+        }
+            
+            
+            
+            
+       
+        
+            
+            
+            
+
         
     </style>
 
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html #">Home</a></li>
+            <li><a href="sign_up.html #">About</a></li>
+            <li><a href="login.html #">Services</a></li>
+            <li><a href="contact_us.html #">Contact</a></li>
+        </ul>
+    </nav>
+      
+
+    
+</div>
+    </div> 
+
     <div class="container">
         <header>
-            <h1>Pet Adoption Service</h1>
+            <h1>LOGIN</h1><br><br><br>
         </header>
         <form class="login-form" action="login.php" method="post">
-            <h2>Login</h2>
+           
             <div class="form-group">
                 <label for="username">Username or Email Address:</label>
                 <input type="text" id="username" name="username" required>
@@ -97,10 +218,52 @@ body{
             <p>Don't have an account? </p>
             <p><a href="forgot-password.php">Forgot Password? </a></p>
         </form>
-        <footer>
-
-        </footer>
-    </div>
+        </div>
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-logo-section card">
+                    <img src="./img/main-logo.png" class="footer-main-logo">
+                    <p>Want to adopt a pet or rescue an abandoned pet ?
+                        Paw Placement is a place where stray, lost or abandoned animals are housed.</p>
+                </div>
+                <div class="quick-links card">
+                    <h4>Quick links</h4>
+                    <a href="./index.html" class="quick-links-contain">Home</a><br><br>
+                    <a href="./pages/login.html" class="quick-links-contain">Login</a><br><br>
+                    <a href="./pages/contact_us.html" class="quick-links-contain">contact</a>
+                </div>
+                <div class="footer-social card">
+                    <h4>Social accounts</h4>
+                    <i class="fa-brands fa-whatsapp" style="color: #2f0468;"></i><br><br>
+                    <i class="fa-brands fa-instagram" style="color: #2f0468;"></i><br><br>
+                    <i class="fa-brands fa-youtube" style="color: #2f0468;"></i><br><br>
+                    <i class="fa-brands fa-github" style="color: #2f0468;"></i><br><br>
+                </div>
+                <div class="footer-contact card">
+                    <h4>Contact us</h4>
+                    <div class="contact-infor">
+                        <i class="fa-solid fa-location-dot" style="color: #2f0468;"></i>
+                        <span class="contact-text">Lorem ipsum dolor, sit amet consectetur adipisicing unt maxime iste dignissimos sit.</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fa-solid fa-phone" style="color: #2f0468;"></i>
+                        <a href="tel:+9370392083" class="contact-text">+9370392083</a>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fa-solid fa-envelope" style="color: #2f0468;"></i>
+                        <a href="mailto:nandiniyamale26@gmail.com" class="contact-text">nandiniyamale26@gmail.com</a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        
+    
+    
+        <script src="https://kit.fontawesome.com/38442ccd2f.js" crossorigin="anonymous"></script>
+    </body>
+    </html>
+        
+              
 </body>
 </html>
 
