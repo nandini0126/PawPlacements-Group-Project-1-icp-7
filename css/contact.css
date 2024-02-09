@@ -12,11 +12,30 @@
     border-radius: 10px;
     box-shadow: 0px 0px 20px 3px black;
     overflow: hidden;
-}]
-@media screen and (max-width: 1000px){
-    .container{
-        width: 100%;
-    }
+}
+@media (max-width: 800px) {
+  .container {
+    margin: 20px;
+    padding: 0;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .form {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+  }
+  .img{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+  }
 }
 .navbar{
     background-color: #94cbff;
@@ -73,6 +92,8 @@ body{
 }
 .form{
     padding: 20px;
+    width: 50%;
+    margin-left: 120px;
 }
 .form h3{
     font-size: 20px;
@@ -82,6 +103,7 @@ body{
 .Contact{
     display: grid;
     row-gap: 1rem;
+    margin-left: 110px;
 }
 .Contact input
 .Contact textarea{
@@ -156,41 +178,15 @@ body{
     box-sizing: border-box;
     border-radius: 15px;
 }
-.b{
-   background-color: #7fbffa;
-   width: 70px;
-   height: 25px;
-   border-radius: 5px;
-   border: 2px solid #0c65f5;
-   box-shadow: 0 0 3px 2px #0c65f5;  
-}
-.social ul li{
-   display: block;
-   margin: 5px;
-   text-align: left;
-   padding: 5px;
-   border-radius: 0 10px 10px 0;
-   transition: all 1s;
-   
-}
-.social ul li:hover{
-   transform: translate(110px,o);
-   background: rgba(255, 255, 255, 0.4);
-}
-button{
-    border-radius: 3px;
-    border: 2px solid black;
-}
-.btn{
-    margin: 20px;
-}
+
 .img{
     height: 330px;
     padding: 40px 20px;
-    margin-right: 90px;
 }
 .m{
     padding: 10px;
+    margin-right: 260px;
+    margin-left: 130px;
 }
 .footer{
     margin-top: 30px;
