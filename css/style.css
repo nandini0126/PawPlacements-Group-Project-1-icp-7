@@ -200,7 +200,7 @@ h4{
     .hamburger{
         visibility: visible;
     }
-    .link{
+    .nav-text{
         display: none;
     }
 }
@@ -208,4 +208,5 @@ h4{
     .hamburger{
         visibility: hidden;
     }
+    
 }
