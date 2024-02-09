@@ -3,6 +3,7 @@
 .container{
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     border-radius: 15px;
     overflow: hidden;
@@ -12,6 +13,11 @@
     border-radius: 10px;
     box-shadow: 0px 0px 20px 3px black;
     overflow: hidden;
+}
+@media screen and (max-width: 1000px){
+    .container{
+        width: 100%;
+    }
 }
 .navbar{
     background-color: #94cbff;
@@ -107,8 +113,8 @@ body{
     padding-left: 150px;
 }
 .d {
-    background-color: #2f0468;
-    color: #94cbff;
+    background-color: #94cbff;
+    color: #2f0468;
     border: none;
     border-radius: 30px;
     padding: 20px;
@@ -116,12 +122,13 @@ body{
     font-weight: 300;
     font-style: normal;
     font-size: 16px;
+    width: 120px;
 }
 .d:hover{
     text-align: center;
-    background-color: mintcream;
-    border-radius: 7px;;
-    color: black;
+    background-color: #2f0468;
+    border-radius: 25px;;
+    color: #94cbff;
 }
 
 .icon{
@@ -211,6 +218,51 @@ button{
 }
 .btn{
     margin: 20px;
+}
+.img{
+    height: 330px;
+    padding: 40px 20px;
+    margin-right: 90px;
+}
+.m{
+    padding: 10px;
+}
+.footer{
+    margin-top: 30px;
+    background-color: #94cbff;
+    padding: 20px;
+}
+.footer-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display: block;
+}
+.footer-main-logo{
+    width: 250px;
+}
+.footer-logo-section{
+    width: 250px;
+    color: #2f0468;
+    margin-top: 20px;
+}
+.footer-contact{
+    width: 300px;
+}
+.quick-links-contain{
+    text-decoration: none;
+    color: #2f0468;
+}
+.footer-social{
+    text-align: center;
+}
+.social-text{
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 .contact-info{
     color: #2f0468;
