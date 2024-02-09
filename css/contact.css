@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #2f0468;
+    width: 1200px;
+    padding: 20px;
+}
+.container:hover{
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 3px black;
+}
+.navbar{
+    background-color: #94cbff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 80px;
+}
+.nav-text{
+    color: #2f0468;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.nav-text:hover{
+    color: #94cbff;
+    background-color: #2f0468;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    margin: 40px auto;
+    border: 2px solid #2f0468;
+    width: 1200px;
+}
+.info:hover{
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 3px black;
+    overflow: hidden;
+}
+.point{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+     text-align: center; 
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-weight: 400;
+    font-family: "Aclonica", sans-serif;
+    font-style: normal;
+}
+.form{
+    margin-right: 100px;
+}
+.form h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+.Contact{
+    display: grid;
+    row-gap: 1rem;
+    margin-left: 110px;
+}
+.Contact input
+.Contact textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 0.4rem;
+}
+.Contact textarea{
+    resize: none;
+    height: 200px;
+}
+.Contact .btn {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.basic{
+    padding: 100px;
+    margin: 20px;
+}
+.maps{
+    padding: 25px;
+}
+.d {
+    background-color: #94cbff;
+    color: #2f0468;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 20px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    width: 120px;
+}
+.d:hover{
+    text-align: center;
+    background-color: #2f0468;
+    border-radius: 25px;;
+    color: #94cbff;
+}
+.int{
+    border: 1.6px solid black;
+    height: 30px;
+    padding: 5px 0px 5px 20px;
+    margin-left: 5px;
+    width: 400px;
+    border-radius: 7px;
+}
+.int1{
+    border: 1.6px solid black;
+    padding: 20px 0px 5px 20px;
+    margin-left: 5px;
+    width: 400px;
+    border-radius: 7px;
+    height: 100px;
+}
+
+.img{
+    height: 330px;
+    padding: 40px 20px;
+}
+.m{
+  margin-left: 100px;
+}
+.footer{
+    margin-top: 30px;
+    background-color: #94cbff;
+    padding: 20px;
+}
+.footer-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display: block;
+}
+.footer-main-logo{
+    width: 250px;
+}
+.footer-logo-section{
+    width: 250px;
+    color: #2f0468;
+    margin-top: 20px;
+}
+.footer-contact{
+    width: 300px;
+}
+.quick-links-contain{
+    text-decoration: none;
+    color: #2f0468;
+}
+.footer-social{
+    text-align: center;
+}
+.social-text{
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.contact-info{
+    color: #2f0468;
+    display: flex;
+    margin-top: 10px;
+}
