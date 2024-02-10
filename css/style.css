@@ -6,7 +6,6 @@ faint purple: #6509dc
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -35,14 +34,21 @@ body{
 .nav-text:hover{
     color: #94cbff;
     background-color: #2f0468;
-    border-radius: 20px;
+    border-radius: 30px;
     transition: 0.5s;
 }    
-
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .head{
     display: flex;
     align-items: center;
     margin: 10px 20px;
+}
+.hamburger{
+    height: 50px;
 }
 .tagline{
     color: #2f0468;
@@ -124,11 +130,10 @@ body{
 .banner-about{
     text-align: center;
     margin-top: 40px;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
 .learn-more-btn {
-    margin: 10px 110px;
+    margin: 30px 110px;
     padding: 10px 20px;
     color: #6d32bb;
     font-weight: bold;
@@ -196,3 +201,55 @@ h4{
     font-size: 22px;
 
 }
+@media screen and (max-width: 800px){
+    .hamburger{
+        visibility: visible;
+        height: 40px;
+    }
+    .nav-text{
+        display: none;
+    }
+    .logo{
+        height: 50px;
+    }
+    .head{
+        font-size: 14px;
+        margin: 10px 8px;
+    }
+    .head-img{
+        height: 300px;
+    }
+    .btn{
+        padding: 15px;
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 992px){
+    .hamburger{
+        display: none;
+    }
+    .logo{
+        height: 60px;
+    }
+    .nav-text{
+        font-size: 17px;
+        padding: 15px 13px;
+    }
+    .head{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .head-img{
+        height: 350px;
+    }  
+    .btn{
+        padding: 17px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 992px){
+    .hamburger{
+        display: none;
+    }
+}
+

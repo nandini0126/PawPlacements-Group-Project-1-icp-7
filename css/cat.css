@@ -16,9 +16,19 @@ faint purple: #6509dc
     google fonts :
    PT serif
    single day
+<<<<<<< HEAD
  sans-serif;*/
  @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
 
+=======
+<<<<<<< HEAD
+ sans-serif;
+*/
+  
+
+ @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
+>>>>>>> 53df389e1e783eddc8c1969b8d7e38c2fb8d9844
 
 .header{
     position: fixed;
@@ -56,7 +66,11 @@ faint purple: #6509dc
     border-radius: 10px;
     width: 300px;
     height: 185px;
+<<<<<<< HEAD
   
+=======
+    border: 1px solid #2f0468;
+>>>>>>> 53df389e1e783eddc8c1969b8d7e38c2fb8d9844
 }
 .cat-name{
     text-align: center;
@@ -92,6 +106,21 @@ faint purple: #6509dc
 }
 .container{
     position: relative;
+<<<<<<< HEAD
+=======
+}
+.btn {
+    margin: 10px -10px;
+    padding: 10px 20px;
+    color: #6d32bb;
+    font-weight: bold;
+    text-decoration: none;
+    border:solid 2px #6d32bb;
+    border-radius: 15px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+>>>>>>> 53df389e1e783eddc8c1969b8d7e38c2fb8d9844
     border-radius: 25px;
     border: 1px solid #6d32bb;
     box-shadow: 0px 0px 8px 1px black;
@@ -101,7 +130,6 @@ faint purple: #6509dc
 .container:hover{
     transition: transform 0.3s ease;
     transform: scale(1.1);
-
 }
 
 .btn{
@@ -133,7 +161,6 @@ faint purple: #6509dc
    background-color: #3b1b65;
    color:#94cbff;
 }
-
 body{
     margin: 0;
     padding: 0;
@@ -166,7 +193,62 @@ body{
     border-radius: 20px;
     transition: 0.4s;
 }
+<<<<<<< HEAD
          
+=======
+.footer{
+    margin-top: 30px;
+    background-color: #94cbff;
+    padding: 20px;
+}
+.footer-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display: block;
+}
+.footer-main-logo{
+    width: 250px;
+}
+.footer-logo-section{
+    width: 250px;
+    color: #2f0468;
+    margin-top: 20px;
+}
+.footer-contact{
+    width: 300px;
+}
+.quick-links-contain{
+    text-decoration: none;
+    color: #2f0468;
+}
+.footer-social{
+    text-align: center;
+}
+.social-text{
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.contact-info{
+    color: #2f0468;
+    display: flex;
+    margin-top: 10px;
+}
+.contact-text{
+    text-decoration: none;
+    color: #2f0468;
+    margin-left: 10px;
+}
+h4{
+    font-size: 22px;
+
+}
+        
+>>>>>>> 53df389e1e783eddc8c1969b8d7e38c2fb8d9844
 /* whatsspp call us section  */
 .wapp-call-us-div{
     position: fixed;
@@ -204,13 +286,13 @@ body{
 
   /*******************************/
 
-  .dropdown-container {
+.dropdown-container {
     display: flex;
     flex-direction: row;
     background-color: #6d32bb;
-   justify-content: space-around;
-  }
-  .dropdown-container-heading{
+    justify-content: space-around;
+}
+.dropdown-container-heading{
     width: 100%;
     padding: 10px 0px;
     text-align: center;
@@ -221,8 +303,7 @@ body{
     font-family: "Aclonica", sans-serif;
     font-weight: 400;
     font-style: normal;
-   
-  }
+}
   .dropdown-section {
     width: 100%;
     
@@ -244,11 +325,9 @@ body{
     background-color: #2f0468;
     border: none;
     color: white;
-
-
-  }
+}
   
-  select option {
+.select option {
    width: 100%;
    font-family: "Aclonica", sans-serif;
    font-weight: 400;
@@ -256,7 +335,7 @@ body{
     background-color: #94cbff;
     color: white;
   }
-select option:checked{
+.select option:checked{
     background-color: #2f0468;
     font-weight: bolder;
 }
