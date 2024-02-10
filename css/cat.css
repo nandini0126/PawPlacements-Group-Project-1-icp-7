@@ -16,16 +16,9 @@ faint purple: #6509dc
     google fonts :
    PT serif
    single day
-<<<<<<< HEAD
- sans-serif;
-*/
-  
- 
-=======
  sans-serif;*/
  @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
 
->>>>>>> 4c4c67d2f00c7c32cfd24643f70732c32bd3c9f0
 
 .header{
     position: fixed;
@@ -63,12 +56,7 @@ faint purple: #6509dc
     border-radius: 10px;
     width: 300px;
     height: 185px;
-<<<<<<< HEAD
-    border: 1px solid #2f0468;
-    
-=======
   
->>>>>>> 4c4c67d2f00c7c32cfd24643f70732c32bd3c9f0
 }
 .cat-name{
     text-align: center;
@@ -104,21 +92,6 @@ faint purple: #6509dc
 }
 .container{
     position: relative;
-<<<<<<< HEAD
-    
-}
-.btn {
-    margin: 10px -10px;
-    padding: 10px 20px;
-    color: #6d32bb;
-    font-weight: bold;
-    text-decoration: none;
-    border:solid 2px #6d32bb;
-    border-radius: 15px;
-    font-family: "Aclonica", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-=======
     border-radius: 25px;
     border: 1px solid #6d32bb;
     box-shadow: 0px 0px 8px 1px black;
@@ -140,7 +113,6 @@ faint purple: #6509dc
     font-size: 15px;
     font-weight: bolder;
     transition: 0.3s ease-out;
->>>>>>> 4c4c67d2f00c7c32cfd24643f70732c32bd3c9f0
 }
 
 .btn:hover{
@@ -194,9 +166,7 @@ body{
     border-radius: 20px;
     transition: 0.4s;
 }
-<<<<<<< HEAD
-=======
-        
+         
 /* whatsspp call us section  */
 .wapp-call-us-div{
     position: fixed;
@@ -245,7 +215,7 @@ body{
     padding: 10px 0px;
     text-align: center;
     margin-top: -16px;
-    background-color: #6d32bb;
+    background-color: #2f0468;
     color: white;
     font-size: 25px;
     font-family: "Aclonica", sans-serif;
@@ -271,7 +241,7 @@ body{
     font-style: normal;
     font-size: 18px;
     padding: 15px;
-    background-color: #6d32bb;
+    background-color: #2f0468;
     border: none;
     color: white;
 
@@ -283,11 +253,10 @@ body{
    font-family: "Aclonica", sans-serif;
    font-weight: 400;
    font-style: normal;
-    background-color: #2f0468;
+    background-color: #94cbff;
     color: white;
   }
 select option:checked{
     background-color: #2f0468;
     font-weight: bolder;
 }
->>>>>>> 4c4c67d2f00c7c32cfd24643f70732c32bd3c9f0
