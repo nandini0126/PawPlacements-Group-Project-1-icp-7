@@ -1,118 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
-.container{
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid #2f0468;
-    width: 1200px;
-    padding: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Aclonica", sans-serif;
+  background-color: white;
+  font-weight: 400;
 }
-.container:hover{
+
+.navbar {
+  background-color: #94cbff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 80px;
+}
+
+.nav-text {
+  color: #2f0468;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.nav-text:hover {
+  color: #94cbff;
+  background-color: #2f0468;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+.contact-container {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #2f0468;
+}
+
+.contact-container:hover {
     border-radius: 10px;
     box-shadow: 0px 0px 20px 3px black;
 }
-.navbar{
-    background-color: #94cbff;
-    padding: 20px;
+
+.contact-img {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 40px 40px;
+}
+
+.dog-img {
+/*  width: 400px;*/
+  height: 350px;
+}
+
+.contact-form {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 40px 0 0 40px;
+}
+
+.info {
+    margin: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.logo{
-    height: 80px;
-}
-.nav-text{
-    color: #2f0468;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 20px;
-}
-.nav-text:hover{
-    color: #94cbff;
-    background-color: #2f0468;
-    border-radius: 20px;
-    transition: 0.4s;
-}
-.info{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
-    text-align: center;
-    margin: 40px auto;
+    flex-wrap: wrap;
     border: 2px solid #2f0468;
-    width: 1200px;
 }
-.info:hover{
+
+.info:hover {
     border-radius: 10px;
     box-shadow: 0px 0px 20px 3px black;
     overflow: hidden;
 }
-.point{
-    display: flex;
-    flex-direction: column;
+
+.basic {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 40px 40px;
+  text-align: center;
+}
+
+.maps {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 40px 40px;
 }
 h1{
      text-align: center; 
 }
-body{
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    font-weight: 400;
-    font-family: "Aclonica", sans-serif;
-    font-style: normal;
-}
-.form{
-    margin-right: 100px;
-}
-.form h3{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 1px;
-}
+
 .Contact{
     display: grid;
     row-gap: 1rem;
-    margin-left: 110px;
 }
-.Contact input
-.Contact textarea{
-    width: 100%;
-    border: none;
-    outline: none;
-    padding: 10px;
-    font-size: 0.9rem;
-    border-radius: 0.4rem;
-}
+
 .Contact textarea{
     resize: none;
     height: 200px;
 }
-.Contact .btn {
-    border: none;
-    outline: none;
-    font-size: 1rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    cursor: pointer;
-}
 
-.basic{
-    padding: 100px;
-    margin: 20px;
-}
-.maps{
-    padding: 25px;
-}
 .d {
     background-color: #94cbff;
     color: #2f0468;
     border: none;
     border-radius: 30px;
-    padding: 13px 20px;
+    padding: 20px;
     font-family: "Aclonica", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -122,7 +120,7 @@ body{
 .d:hover{
     text-align: center;
     background-color: #2f0468;
-    border-radius: 25px;;
+    border-radius: 25px;
     color: #94cbff;
 }
 .int{
@@ -140,14 +138,6 @@ body{
     width: 400px;
     border-radius: 7px;
     height: 100px;
-}
-
-.img{
-    height: 330px;
-    padding: 40px 20px;
-}
-.m{
-  margin-left: 100px;
 }
 .footer{
     margin-top: 30px;
@@ -192,3 +182,42 @@ body{
     margin-top: 10px;
 }
 
+/* Media Queries */
+@media (max-width: 768px) {
+  /* img + form */
+  .contact-container {
+    width: 768px;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .contact-img {
+    width: 700px;
+    margin: auto;
+  }
+  .contact-form {
+    width: 700px;
+    margin: auto;
+  }
+  .dog-img {
+    width: auto;
+    height: auto;
+  }
+
+  /* contact + map */
+  .info {
+    width: 768px;
+    margin: auto;
+    flex-wrap: no-wrap;
+  }
+  .basic {
+    width: 700px;
+    margin: auto;
+    text-align: start;
+  }
+  .maps {
+    width: 700px;
+    margin: auto;
+  }
+
+  /* footer */
+}
