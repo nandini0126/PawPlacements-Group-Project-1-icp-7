@@ -291,6 +291,16 @@ h4{
    justify-content: space-around;
 }
 .dropdown-container-heading{
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: -16px;
+    background-color: #2f0468;
+    color: white;
+    font-size: 25px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
    width: 100%;
    padding: 10px 0px;
    text-align: center;
@@ -306,6 +316,23 @@ h4{
    
    
 }
+  
+  .dropdown-container h2 {
+    margin-bottom: 10px;
+    
+  }
+  
+  select {
+    text-align: center;
+    width: 100%;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 15px;
+    background-color: #2f0468;
+    border: none;
+    color: white;
  
  .dropdown-container h2 {
    margin-bottom: 10px;
@@ -328,6 +355,13 @@ h4{
 }
  
 .select option {
+   width: 100%;
+   font-family: "Aclonica", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+    background-color: #94cbff;
+    color: white;
+  }
   width: 100%;
   font-family: "Aclonica", sans-serif;
   font-weight: 400;
