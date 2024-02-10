@@ -1,0 +1,255 @@
+/*
+colors we are using
+skyblue:#94cbff
+purple:#2f0468
+faint purple: #6509dc
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar{
+    background-color: #94cbff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 80px;
+}
+.nav-text{
+    color: #2f0468;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.nav-text:hover{
+    color: #94cbff;
+    background-color: #2f0468;
+    border-radius: 30px;
+    transition: 0.5s;
+}    
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+}
+.hamburger{
+    height: 50px;
+}
+.tagline{
+    color: #2f0468;
+    border-radius: 10px;
+    width: 300px;
+}
+.head-left{
+    border-radius: 10px;
+    padding: 20px;
+}
+.btn{
+    background-color: #2f0468;
+    color: #94cbff;
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.section-tagline{
+    color: #2f0468;
+    text-align: center;
+    margin-top: 60px;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+.section-icon{
+    height: 100px;
+}
+.section-card{
+    border: 2px solid #2f0468;
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+.section-card:hover{
+    box-shadow: 0px 0px 20px 3px black;
+    transition: 0.5s;
+}
+.main-banner{
+    margin-top: 60px;;
+    padding: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.banner-head{
+    text-align: center;
+    font-size: 35px;
+    color: #2f0468;
+}
+.banner-child{
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px black;
+}
+.banner-img{
+    height: 100px;
+    margin-left: 120px;
+}
+.banner-containts1{
+    text-align: center;
+    color: #2f0468;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.banner-about{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.learn-more-btn {
+    margin: 30px 110px;
+    padding: 10px 20px;
+    color: #6d32bb;
+    font-weight: bold;
+    text-decoration: none;
+    border:solid 2px #6d32bb;
+    border-radius: 15px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.learn-more-btn:hover {
+    background-color: #6d32bb;
+    color: white;
+    transition: 0.3s ease;
+}
+.footer{
+    margin-top: 100px;
+    background-color: #94cbff;
+    padding: 20px;
+}
+.footer-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display: block;
+}
+.footer-main-logo{
+    width: 250px;
+}
+.footer-logo-section{
+    width: 250px;
+    color: #2f0468;
+    margin-top: 20px;
+}
+.footer-contact{
+    width: 300px;
+}
+.quick-links-contain{
+    text-decoration: none;
+    color: #2f0468;
+}
+.footer-social{
+    text-align: center;
+}
+.social-text{
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.contact-info{
+    color: #2f0468;
+    display: flex;
+    margin-top: 10px;
+}
+.contact-text{
+    text-decoration: none;
+    color: #2f0468;
+    margin-left: 10px;
+}
+h4{
+    font-size: 22px;
+
+}
+@media screen and (max-width: 800px){
+    .hamburger{
+        visibility: visible;
+        height: 40px;
+    }
+    .nav-text{
+        display: none;
+    }
+    .logo{
+        height: 50px;
+    }
+    .head{
+        font-size: 14px;
+        margin: 10px 8px;
+    }
+    .head-img{
+        height: 300px;
+    }
+    .btn{
+        padding: 15px;
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 992px){
+    .hamburger{
+        display: none;
+    }
+    .logo{
+        height: 60px;
+    }
+    .nav-text{
+        font-size: 17px;
+        padding: 15px 13px;
+    }
+    .head{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .head-img{
+        height: 350px;
+    }  
+    .btn{
+        padding: 17px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 992px){
+    .hamburger{
+        display: none;
+    }
+}
+

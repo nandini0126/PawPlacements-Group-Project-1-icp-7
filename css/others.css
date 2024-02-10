@@ -1,0 +1,121 @@
+/*
+colors we are using
+skyblue:#94cbff
+purple:#2f0468
+faint purple: #6509dc
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #94cbff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 80px;
+}
+.nav-text{
+    color: #2f0468;
+    text-decoration: none;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.nav-text:hover{
+    color: #94cbff;
+    background-color: #2f0468;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+    
+    
+    
+    
+.banner{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    background-color: white;
+    padding-top: 40px;
+    height: 80vh;
+}
+
+.banner-2{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    padding-top: 40px;
+    height: 80vh;
+
+}
+
+.banner-child-2{
+    
+    border-radius: 20px;
+    width:280px;
+    margin: 10px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 253, 253);
+    border:1px solid #2f0468;
+    display:inline-block;
+
+}
+
+
+.banner-child-2 h2{
+    color:rgb(120, 154, 250);
+    position: relative;
+
+    padding: 30px;
+    
+    bottom: 40px;
+    
+    background-color: white;
+    
+
+}
+
+.banner-img-2{
+    width: 100%;
+    border-bottom: solid 2px grey;
+
+}
+.banner-child h2{
+    color: #2f0468;
+    margin: 50px;
+    height: 50px;
+}
+.banner-child{
+    width: 400px;
+    justify-items: center;
+    text-align: center;
+}
+
+.banner-child p{
+    color:rgb(120, 154, 250);
+    font-weight: bolder;
+    line-height: 1.8;
+    padding: 15px;
+    height: 100px;
+}
+.banner-img{
+    width:100px;
+}

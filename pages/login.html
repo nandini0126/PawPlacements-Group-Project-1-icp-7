@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet Adoption Login</title>
+    <title>Pet Adoption Login..</title>
     <link rel="stylesheet" href="style1.css">
 
     <style>
@@ -64,57 +64,7 @@ footer {
     margin-top: 20px;
     text-align: center;
 }
-* {
-            margin: 0;
-            padding: 0;
-        }
-        
-        
-        nav {
-            background-color:#94cbff;
-            color:#2f0468; 
-            
-        }
-        
-        nav ul {
-            list-style: none; 
-            display: flex; 
-            
-        }
-        
-        nav ul li {
-            margin-right: 60px; 
-            padding: 2%;
-            
-            
-        }
-        
-        nav ul li a {
-            text-decoration:dashed ;
-            color:#2f0468;
-            font-size: 17px;
-            
-            
-        }
-        
-        nav ul li a:hover {
-            color:black;
-            text-decoration: underline; 
-            
-        }
-        .head-name{
-            float: right;
-            position:fixed;
-            top:0;
-            right:0;
-            padding-top: 1%;
-            padding-right: 3%;
-            font-size: 28px;
-            
-          @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-          font-family: 'Courgette', cursive;
-        }
-        .footer{
+    .footer{
             margin-top: 30px;
             background-color: #94cbff;
             padding: 20px;
@@ -167,7 +117,46 @@ footer {
         }
             
             
-            
+             /*
+colors we are using
+skyblue:#94cbff
+purple:#2f0468
+faint purple: #6509dc
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color:#94cbff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 80px;
+}
+.nav-text{
+    color: #2f0468;
+    text-decoration: none;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.nav-text:hover{
+    color:#94cbff;
+    background-color: #2f0468;
+    border-radius: 20px;
+    transition: 0.5s;
+}
             
        
         
@@ -180,16 +169,18 @@ footer {
 
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html #">Home</a></li>
-            <li><a href="sign_up.html #">About</a></li>
-            <li><a href="login.html #">Services</a></li>
-            <li><a href="contact_us.html #">Contact</a></li>
-        </ul>
-    </nav>
-      
-
+    <div class="navbar">
+        <div class="nav-left">
+           </div>
+        <div class="link">
+            <a href="./index.html" class="nav-text">Home</a>
+            <a href="./pages/sign_up.html" class="nav-text">Sign up</a>
+            <a href="./pages/login.html" class="nav-text">Login</a>
+            <a href="./pages/contact_us.html" class="nav-text">Contact us</a>
+        </div>
+    </div>
+   
+    
     
 </div>
     </div> 

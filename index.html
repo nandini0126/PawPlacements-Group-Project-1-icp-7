@@ -1,174 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="./css/style.css">                                  
-     
-    <script src="https://kit.fontawesome.com/fabfdf08cb.js"crossorigin="anonymous"> /*font awsome script*/
-    </script>                                                                      
-    
-    <title>Home</title>
+    <title>Home page</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
-    <header>
-        <img src="./icons/main_logo.png" class="main-logo">
-        <div class="header-div">
-            <a href="./pages/login.html">
-                <button class="btn-login-signup">Login</button>
-           </a>
-
-            <a href="./pages/sign_up.html">
-                <button class="btn-login-signup">Signup</button>
-            </a>
+    <div class="navbar">
+        <div class="nav-left">
+            <img src="./img/main-logo.png" class="logo">
         </div>
-        <h1>Find Your Purr-fect Companion</h1>
-    </header>
-
-    <div class="card-parent">
-        <div class="card-child">
-            <a href="./pages/dog.html">
-                <img src="./icons/dog.png" class="img dog-icon">
-            </a>
-            <h2>Dog</h2>
-
+        <div class="link">
+            <a href="./index.html" class="nav-text">Home</a>
+            <a href="./pages/sign_up.html" class="nav-text">Sign up</a>
+            <a href="./pages/login.html" class="nav-text">Login</a>
+            <a href="./pages/contact_us.html" class="nav-text">Contact us</a>
+            <img src="./icons/menu.png" class="hamburger">
         </div>
-
-        <div class="card-child">
-            <a href="./pages/cat.html">
-                <img src="./icons/cat.png" class="img cat-icon">
-            </a>
-            <h2>Cat</h2>
-
+    </div>
+    <div class="head">
+        <div class="head-left">
+            <div class="tagline">
+                <h1>ADOPT.</h1>
+                <h1>DON'T SHOP</h1>
+            </div>
+            <div class="head-para">
+                <p class="para-">GET A NEW FRIEND</p>
+                <P>These animals like us, are conscious being with their own personality and feelings and therefore deserve our respect and 
+                    should be treated as equals. Cats, Dogs and even Parrots Adopt Any Pet You Like!</P>
+            </div>
+            <div>
+                <button class="btn">View more</button>
+    
+            </div>
         </div>
-
-        <div class="card-child">
-            <a href="./pages/others.html">
-                <img src="./icons/other.png" class="img other-icon">
-            </a>
-            <h2>Others</h2>
+        <div>
+            <img src="./img/home-background.png" class="head-img">
         </div>
-
+    </div>
+    <div>
+        <h2 class="section-tagline">Find your new best friend here</h2>
+        <div class="section">
+            <div class="section-card">
+                <a href="./pages/dog.html"><img src="./icons/dog.png" class="section-icon"></a>
+                <p class="card-text">Dogs</p>
+            </div>
+            <div class="section-card">
+                <a href="./pages/cat.html"><img src="./icons/cat.png" class="section-icon"></a>
+                <p class="card-text">Cats</p>
+            </div>
+            <div class="section-card">
+                <a href="./pages/others.html"><img src="./icons/other.png" class="section-icon"></a>
+                <p class="card-text">Other Animals</p>
+            </div>
+        </div>
     </div>
 
+    <div class="main-banner">
+        <h3 class="banner-head">PLANNING TO ADOPT A PET ?</h3>
+        <div class="banner">
+            <div class="banner-child">
+                <img src="./icons/banner1.png" class="banner-img">
+                <p class="banner-containts1">HEALTHY & FIT </p>
+                <p class="banner-about">All our pets undergo complete health checkups and treatment in the best hospitals before being put up for adoption.</p>
+                <button class="learn-more-btn">Learn More</button>
+            </div>    
 
-
-    <p class="headings"> PLANNING TO ADOPT A PET?</p>
-    <div class="banner">
-        <div class="banner-child">
-            <img src="https://www.petfinder.com/static/4299e8d166bccec56353ae85ce25e539/Organization%20Outline.svg" class="banner-img">
-            <h2>CHECKLIST FOR NEW ADOPTERS</h2>
-            <p>Make the adoption transition as soon as possible</p>
-            <a href="./pages/learn.html" class="learn-more-btn">Learn More</a>
-            
-       </div>
-    
-
-
-    
-    
-        <div class="banner-child">
-            <img src="https://www.petfinder.com/static/174059e302e86fe800c74f0c5d423582/Health%20Outline.svg" class="banner-img">
-            <h2>COVID-19 RESOURCES</h2>
-            <p>Learn how shelter/rescue groups are adapting. Find out how you can help dogs and cats</p>
-            <a href="./pages/learn.html" class="learn-more-btn">Learn More</a>
-            
-       </div>
-    
-
-
-
-    
-    
-        <div class="banner-child">
-            <img src="https://www.petfinder.com/static/ab2cf81272c6ff417297e814031ee9c5/Dog%20Portrait.svg" class="banner-img">
-            <h2>PET ADOPTION FAQ'S</h2>
-            <p>Get answers to all of the questions you haven't thought of for your adoption </p>
-            <a href="./pages/learn.html" class="learn-more-btn">Learn More</a>
-            
-       </div>
+            <div class="banner-child">
+                <img src="./icons/house.png" class="banner-img">
+                <h3 class="banner-containts1">FOSTER-BASED</h3>
+                <p class="banner-about">All pets are accustomed to a homely environment while they wait for their forever family.</p>
+                <button class="learn-more-btn">Learn More</button>
+            </div>
+        
+            <div class="banner-child">
+                <img src="./icons/people.png" class="banner-img">
+                <h3 class="banner-containts1">ALWAYS AVAILABLE</h3>
+                <p class="banner-about">Once you have adopted from us, we will be available at all times to help you out in any way necessary.</p>
+                <button class="learn-more-btn">Learn More</button>
+            </div>
+        </div>     
     </div> 
 
-
-
-
-
-
-
-
-    <p class="headings-2"> PETS AVAILABLE FOR ADOPTION NEARBY ></p>
-    <div class="banner-2">
-        <div class="banner-child-2">
-            <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70608216/1/?bust=1707060559&width=280" class="banner-img-2">
-            <h2>Bruno</h2>
-                      
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-logo-section card">
+                <img src="./img/main-logo.png" class="footer-main-logo">
+                <p>Want to adopt a pet or rescue an abandoned pet ?
+                    Paw Placement is a place where stray, lost or abandoned animals are housed.</p>
+            </div>
+            <div class="quick-links card">
+                <h4>Quick links</h4>
+                <a href="./index.html" class="quick-links-contain">Home</a><br><br>
+                <a href="./pages/login.html" class="quick-links-contain">Login</a><br><br>
+                <a href="./pages/contact_us.html" class="quick-links-contain">contact</a>
+            </div>
+            <div class="footer-social card">
+                <h4>Social accounts</h4>
+                <i class="fa-brands fa-whatsapp" style="color: #2f0468;"></i><br><br>
+                <i class="fa-brands fa-instagram" style="color: #2f0468;"></i><br><br>
+                <i class="fa-brands fa-youtube" style="color: #2f0468;"></i><br><br>
+                <i class="fa-brands fa-github" style="color: #2f0468;"></i><br><br>
+            </div>
+            <div class="footer-contact card">
+                <h4>Contact us</h4>
+                <div class="contact-infor">
+                    <i class="fa-solid fa-location-dot" style="color: #2f0468;"></i>
+                    <span class="contact-text">Lorem ipsum dolor, sit amet consectetur adipisicing unt maxime iste dignissimos sit.</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fa-solid fa-phone" style="color: #2f0468;"></i>
+                    <a href="tel:+9370392083" class="contact-text">+9370392083</a>
+                </div>
+                <div class="contact-info">
+                    <i class="fa-solid fa-envelope" style="color: #2f0468;"></i>
+                    <a href="mailto:nandiniyamale26@gmail.com" class="contact-text">nandiniyamale26@gmail.com</a>
+                </div>
+            </div>    
         </div>
-    
-
-
-    
-        <div class="banner-child-2">
-            <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70349224/1/?bust=1707078980&width=280" class="banner-img-2">
-            <h2>Toffe</h2>
-            
-            
-       </div>
-
-       <div class="banner-child-2">
-        <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70460560/1/?bust=1706988465&width=280" height="285px"  class="banner-img-2">
-        <h2>Lucky</h2>
-        
-        
-       </div>
     </div>
     
-        
-    
 
 
-
-        <footer>
-            <div class="ftr-div">
-                <p class="ftr-p1">Adopt Don't Shop</p><br>
-            </div>
-
-        <div class="ftr-div-box">
-            <div class="ftr">
-                <p class="ftr-p ftr-p2">Quick links</p>
-                <ul type="none">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./pages/login.html">Login</a></li>
-                    <li><a href="./pages/sign_up.html">Signup</a></li>
-                    <li><a href="./pages/others.html">Others</a></li>
-                </ul>
-            </div>
-
-            
-            <div class="ftr">
-                <p class="ftr-p ftr-p3">Find pets</p>
-                <ul type="none">
-                    <li><a href="./pages/dog.html">Dogs</a></li>
-                    <li><a href="./pages/cat.html">Cats</a></li>
-                    <li><a href="./pages/others.html">Others</a></li>
-                    <li><a href="./pages/shelter.html">Shelters</a></li>
-                </ul>
-           </div>  
-
-            
-            <div class="ftr">
-                <p class="ftr-p ftr-p4">Our Social</p>
-                <ul type="none">
-                    <li><a href="./index.html"><i class="fa-brands fa-square-instagram"></i></a></li>
-                    <li><a href="./index.html"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="./index.html"><i class="fa-brands fa-square-x-twitter"></i></a></li>
-                    <li><a href="./index.html"><i class="fa-brands fa-youtube"></i></a></li>
-                </ul>
-           </div>  
-        </div>
-        </footer>
+    <script src="https://kit.fontawesome.com/38442ccd2f.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
