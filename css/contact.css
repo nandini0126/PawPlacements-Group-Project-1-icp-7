@@ -183,7 +183,7 @@ h1{
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* img + form */
   .contact-container {
     width: 768px;
