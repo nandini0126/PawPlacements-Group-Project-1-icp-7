@@ -222,9 +222,16 @@ h4{
         font-size: 13px;
     }
     .footer-container{
-        display: block;
-        justify-content: space-evenly;
-        width: 100%;
+        flex-wrap: wrap;
+    }
+    .footer-social{
+        margin-left: 10px;
+    }
+    .quick-links{
+        margin-right: 160px;
+    }
+    .footer-contact{
+        margin-left: 50px;
     }
     .section{
         flex-wrap: wrap;
