@@ -167,8 +167,12 @@ faint purple: #6509dc
 body{
    margin: 0;
    padding: 0;
+   
 
 }
+
+
+
 .navbar{
    background-color: #94cbff;
    padding: 20px;
@@ -195,11 +199,17 @@ a.nav-text{
    border-radius: 30px;
 }
 
+
+
+
 .footer{
    margin-top: 30px;
    background-color: #94cbff;
    padding: 20px;
    margin-top: 150px;
+   font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .footer-container{
    padding: 20px;
@@ -294,7 +304,6 @@ h4{
     width: 100%;
     padding: 10px 0px;
     text-align: center;
-    margin-top: -16px;
     background-color: #2f0468;
     color: white;
     font-size: 25px;
@@ -435,6 +444,39 @@ h4{
 }
 
 
+@media screen and (max-width: 800px){
+      .row{
+         flex-direction: column;
+         margin-top: 50px;
+         
 
+      }
 
+      .wapp-call-us-img{
+         width: 40px;
+         transition: transform 0.3s ease;
+      }
+      .container{
+         margin-top: 70px;
+      }
+      .dropdown-container{
+         flex-wrap: wrap;
+      }
+      .dropdown-section{
+         width: 40%;
+         flex-direction:column;
+         margin-top: 90px;
+      }
 
+}
+
+@media screen and (max-width: 970px){
+   .row{
+      flex-direction: column;
+      margin-top: 50px;
+   }
+   .container{
+      margin-top: 120px;
+   }
+
+}
