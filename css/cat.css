@@ -181,14 +181,14 @@ body{
 }
 a.nav-text{
    font-family: "Aclonica", sans-serif;
-   font-weight: 400;
    font-style: normal;
    color:#2f0468;
    text-decoration: none;
-   font-size: 18px;
+   font-size: 16px;
    padding: 15px;
    margin: 10px;
 }
+
 .nav-text:hover{
    color: #94cbff;
    background-color: #2f0468;
@@ -404,5 +404,3 @@ h4{
 
 
 
-
-}
