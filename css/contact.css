@@ -181,6 +181,9 @@ h1{
     display: flex;
     margin-top: 10px;
 }
+.contact-text{
+    color: #2f0468;
+}
 
 /* Media Queries */
 @media screen and (max-width: 800px) {
@@ -298,3 +301,4 @@ h1{
         display: none;
     }
 }
+
