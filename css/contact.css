@@ -181,9 +181,12 @@ h1{
     display: flex;
     margin-top: 10px;
 }
+.contact-text{
+    color: #2f0468;
+}
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   /* img + form */
   .contact-container {
     width: 768px;
@@ -218,6 +221,84 @@ h1{
     width: 700px;
     margin: auto;
   }
-
-  /* footer */
 }
+@media screen and (max-width: 800px){
+    .hamburger{
+        visibility: visible;
+        height: 40px;
+    }
+    .nav-text{
+        display: none;
+    }
+    .logo{
+        height: 50px;
+    }
+    .head{
+        font-size: 14px;
+        margin: 8px 0px;
+    }
+    .head-img{
+        height: 280px;
+    }
+    .head-left{
+        padding: 10px;
+    }
+    .btn{
+        padding: 15px;
+        font-size: 13px;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .footer-social{
+        margin-left: 10px;
+    }
+    .quick-links{
+        margin-right: 160px;
+    }
+    .footer-contact{
+        margin-left: 50px;
+    }
+    .section{
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .section-icon{
+        height: 100px;
+    }
+    .section-card{
+        margin: 10px 100px;
+        flex-wrap: wrap;
+        width: 150px;
+        padding: 20px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 992px){
+    .hamburger{
+        display: none;
+    }
+    .logo{
+        height: 60px;
+    }
+    .nav-text{
+        font-size: 17px;
+        padding: 15px 13px;
+    }
+    .head{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .head-img{
+        height: 350px;
+    }  
+    .btn{
+        padding: 17px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 992px){
+    .hamburger{
+        display: none;
+    }
+}
+
