@@ -142,6 +142,8 @@ h1:hover{
     border-radius: 7px;
     height: 100px;
 }
+
+
 .footer{
     margin-top: 30px;
     background-color: #94cbff;
@@ -205,6 +207,7 @@ h1:hover{
 .contact-text {
     color: #2f0468;
     transition: all 0.5s ease;
+    text-decoration: none;
 }
 .contact-text:hover{
     padding-left: 12px;

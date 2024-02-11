@@ -19,7 +19,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}    
+}
 .logo{
     height: 80px;
 }
@@ -97,7 +97,6 @@ body{
 .main-banner{
     margin-top: 60px;
     padding: 20px;
-    background-color: #94cbff;
 }
 .banner{
     display: flex;
@@ -116,7 +115,6 @@ body{
     margin: 10px;
     border-radius: 20px;
     box-shadow: 0 0 10px 2px black;
-    background-color: white;
 }
 .banner-img{
     height: 100px;
@@ -165,10 +163,15 @@ body{
     margin-top: 100px;
     margin-bottom: 0px;
 }
+.cat-info{
+    font-size: 13px;
+ }
+
+
 
 
 .footer{
-    margin-top: 150px;
+    margin-top: 30px;
     background-color: #94cbff;
     padding: 20px;
 }
@@ -177,7 +180,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.cart{
+.card{
     display: block;
 }
 .footer-main-logo{
@@ -231,6 +234,7 @@ body{
     color: #2f0468;
     text-decoration: none;
     transition: all 0.5s ease;
+    text-decoration: none;
 }
 .contact-text:hover{
     padding-left: 12px;
@@ -238,6 +242,8 @@ body{
 .contact-text1{
     color: #2f0468;
 }
+
+
 @media screen and (max-width: 599px)
 {
 
