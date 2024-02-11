@@ -33,7 +33,7 @@ body {
 .nav-text:hover {
   color: #94cbff;
   background-color: #2f0468;
-  border-radius: 30px;
+  border-radius: 20px;
   transition: 0.4s;
 }
 
@@ -82,7 +82,7 @@ body {
 .basic {
   flex: 1 1 50%;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 40px 40px;
   text-align: center;
 }
 
