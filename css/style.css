@@ -19,7 +19,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+}    
 .logo{
     height: 80px;
 }
@@ -97,6 +97,7 @@ body{
 .main-banner{
     margin-top: 60px;
     padding: 20px;
+    background-color: #94cbff;
 }
 .banner{
     display: flex;
@@ -115,6 +116,7 @@ body{
     margin: 10px;
     border-radius: 20px;
     box-shadow: 0 0 10px 2px black;
+    background-color: white;
 }
 .banner-img{
     height: 100px;
@@ -132,7 +134,7 @@ body{
     font-size: 15px;
 }
 .learn-more-btn {
-    background-color: #ffff;
+    background-color: #94cbff;
     margin: 30px 110px;
     padding: 10px 20px;
     color: #2f0468;
@@ -150,8 +152,22 @@ body{
     color: #ffff;
     transition: 0.3s ease;
 }
-.footer{
+.pet-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.pets-head{
+    text-align: center;
+    font-size: 25px;
+    color: #2f0468;
     margin-top: 100px;
+}
+
+
+.footer{
+    margin-top: 30px;
     background-color: #94cbff;
     padding: 20px;
 }
@@ -178,9 +194,23 @@ body{
     text-decoration: none;
     color: #2f0468;
 }
+
+.quick-links  a {
+    
+    text-transform: capitalize;
+    color: #2f0468;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.quick-links  a:hover{
+    color: #2f0468;
+    padding-left: 8px;
+}
+
 .footer-social{
     text-align: center;
 }
+
 .social-text{
     font-family: "Aclonica", sans-serif;
     font-weight: 400;
@@ -191,10 +221,20 @@ body{
     color: #2f0468;
     display: flex;
     margin-top: 10px;
+    transition: all 0.3s ease;
 }
-h4{
-    font-size: 22px;
-
+.contact-info:hover{
+    padding-left: 8px;
+}
+.contact-text {
+    color: #2f0468;
+    transition: all 0.5s ease;
+}
+.contact-text:hover{
+    padding-left: 12px;
+}
+.contact-text1{
+    color: #2f0468;
 }
 @media screen and (max-width: 800px){
     .hamburger{

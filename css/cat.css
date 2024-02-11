@@ -23,6 +23,14 @@ faint purple: #6509dc
 
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
+body{
+   margin: 0;
+   padding: 0;
+   font-family: "Aclonica", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
 
 .header{
    position: fixed;
@@ -51,9 +59,7 @@ faint purple: #6509dc
 }
 .cat-img{
    height: 300px;
-   padding: 1px;
-   width: auto;
-   border-radius: 25px 25px 0px 0px;
+   border-radius: 25px;
 }
 .heart-icon-div{
     border-radius: 50%;
@@ -69,10 +75,10 @@ faint purple: #6509dc
 
 
 .card{
-   border-radius: 0px 0px 25px 25px;
-   width: 100%;
+   border-radius: 10px;
+   width: 300px;
    height: 185px;
-   border:none;
+   border: 1px solid #2f0468;
 }
 
 .footer .card{
@@ -91,7 +97,9 @@ faint purple: #6509dc
    display: flex;
    justify-content: start;
    align-items: center;
-
+}
+.cat-info{
+   font-size: 13px;
 }
 .card-body{
    margin: 0 20px;
@@ -114,8 +122,6 @@ faint purple: #6509dc
 .container{
    position: relative;
    border-radius: 25px; 
-   box-shadow: 0px 0px 8px 0.5px black;
-   
 }
 .btn {
    margin: 10px -10px;
@@ -137,7 +143,6 @@ faint purple: #6509dc
 .container:hover{
    transition: transform 0.3s ease;
    transform: scale(1.1);
-   box-shadow: 0px 0px 18px 0.5px black;
 }
 
 .btn{
@@ -165,59 +170,48 @@ faint purple: #6509dc
    left: 85px;
 }
 
+
 .btn:hover{
   background-color: #3b1b65;
   color:#94cbff;
 }
-body{
-   margin: 0;
-   padding: 0;
-}
 
 
 
-.navbar{
+
+.navbar {
    background-color: #94cbff;
    padding: 20px;
    display: flex;
    justify-content: space-between;
    align-items: center;
-}
-.logo{
+ }
+ 
+ .logo {
    height: 80px;
-}
-a.nav-text{
-   font-family: "Aclonica", sans-serif;
-   font-style: normal;
-   color:#2f0468;
+ }
+ 
+ .nav-text {
+   color: #2f0468;
    text-decoration: none;
    font-size: 18px;
    padding: 15px;
    margin: 10px;
-}
-
-.nav-text:hover{
+   border-radius: 20px;
+ }
+ 
+ .nav-text:hover {
    color: #94cbff;
    background-color: #2f0468;
-   border-radius: 30px;
-}
-.navbar.link{
-   font-weight: 400;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-
+   border-radius: 20px;
+   transition: 0.4s;
+ }
 
 
 .footer{
    margin-top: 30px;
    background-color: #94cbff;
    padding: 20px;
-   margin-top: 150px;
-   font-family: "Aclonica", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 .footer-container{
    padding: 20px;
@@ -243,9 +237,23 @@ a.nav-text{
    text-decoration: none;
    color: #2f0468;
 }
+
+.quick-links  a {
+   
+   text-transform: capitalize;
+   color: #2f0468;
+   text-decoration: none;
+   transition: all 0.3s ease;
+}
+.quick-links  a:hover{
+   color: #2f0468;
+   padding-left: 8px;
+}
+
 .footer-social{
    text-align: center;
 }
+
 .social-text{
    font-family: "Aclonica", sans-serif;
    font-weight: 400;
@@ -256,16 +264,22 @@ a.nav-text{
    color: #2f0468;
    display: flex;
    margin-top: 10px;
+   transition: all 0.3s ease;
 }
-.contact-text{
-   text-decoration: none;
+.contact-info:hover{
+   padding-left: 8px;
+}
+.contact-text {
    color: #2f0468;
-   margin-left: 10px;
+   transition: all 0.5s ease;
 }
-h4{
-   font-size: 22px;
+.contact-text:hover{
+   padding-left: 12px;
+}
+.contact-text1{
+   color: #2f0468;
+}
 
-}
        
 /* whatsspp call us section  */
 .wapp-call-us-div{
@@ -302,8 +316,8 @@ h4{
 }
 
 .learn-more-button:hover {
-   background-color: #6d32bb;
-   color: white;
+   background-color: #2f0468;
+   color:#94cbff;
    transition: 0.3s ease;
 }
 
@@ -523,6 +537,7 @@ h4{
       .container{
          margin-top: 70px;
       }
+      
       .dropdown-container{
          flex-wrap: wrap;
       }
