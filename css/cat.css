@@ -73,10 +73,10 @@ body{
 
 
 .card{
-   border-radius: 10px;
+   
    width: 300px;
    height: 185px;
-   border: 1px solid #2f0468;
+   border: none;
 }
 
 
@@ -118,6 +118,8 @@ body{
 .container{
    position: relative;
    border-radius: 25px; 
+   box-shadow: 0px 0px 8px 0.5px black;
+   padding: 1px;
 }
 .btn {
    margin: 10px -10px;
@@ -139,6 +141,7 @@ body{
 .container:hover{
    transition: transform 0.3s ease;
    transform: scale(1.1);
+   box-shadow: 0px 0px 18px 0.5px black;
 }
 
 .btn{
@@ -165,6 +168,7 @@ body{
    bottom: -20px;
    left: 85px;
 }
+
 
 .btn:hover{
   background-color: #3b1b65;
@@ -201,6 +205,111 @@ body{
 }
 
 
+
+
+.navbar {
+   background-color: #94cbff;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .logo {
+   height: 80px;
+ }
+ 
+ .nav-text {
+   color: #2f0468;
+   text-decoration: none;
+   font-size: 18px;
+   padding: 15px;
+   margin: 10px;
+   border-radius: 20px;
+ }
+ 
+ .nav-text:hover {
+   color: #94cbff;
+   background-color: #2f0468;
+   border-radius: 20px;
+   transition: 0.4s;
+ }
+
+
+.footer{
+   margin-top: 30px;
+   background-color: #94cbff;
+   padding: 20px;
+}
+.footer-container{
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.card{
+   display: block;
+   border-top: none;
+}
+.footer-main-logo{
+   width: 250px;
+}
+.footer-logo-section{
+   width: 250px;
+   color: #2f0468;
+   margin-top: 20px;
+}
+.footer-contact{
+   width: 300px;
+}
+.quick-links-contain{
+   text-decoration: none;
+   color: #2f0468;
+}
+.quick-links{
+   text-align: end;
+}
+.quick-links  a {
+   
+   text-transform: capitalize;
+   color: #2f0468;
+   text-decoration: none;
+   transition: all 0.3s ease;
+}
+.quick-links  a:hover{
+   color: #2f0468;
+   padding-left: 8px;
+}
+
+.footer-social{
+   text-align: center;
+}
+
+.social-text{
+   font-family: "Aclonica", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+
+}
+.contact-info{
+   color: #2f0468;
+   display: flex;
+   margin-top: 10px;
+   transition: all 0.3s ease;
+}
+.contact-info:hover{
+   padding-left: 8px;
+}
+.contact-text {
+   color: #2f0468;
+   transition: all 0.5s ease;
+}
+.contact-text:hover{
+   padding-left: 12px;
+}
+.contact-text1{
+   color: #2f0468;
+}
+
        
 /* whatsspp call us section  */
 .wapp-call-us-div{
@@ -213,12 +322,17 @@ body{
 .wapp-call-us-img{
    width: 60px;
    transition: transform 0.3s ease;
+   border-radius: 50px;
 }
 
 .wapp-call-us-div:hover .wapp-call-us-img{
    transform: scale(1.1);
+   
 }   
 
+.wapp-call-us-img:hover{
+   box-shadow: 0px 0px 8px 0.5px black;
+}
 .learn-more-button {
    padding: 10px 20px;
    color: #6d32bb;
@@ -232,8 +346,8 @@ body{
 }
 
 .learn-more-button:hover {
-   background-color: #6d32bb;
-   color: white;
+   background-color: #2f0468;
+   color:#94cbff;
    transition: 0.3s ease;
 }
 
@@ -387,7 +501,62 @@ body{
 }
 
 
-@media screen and (max-width: 800px){
+
+/**************  others ********************/
+
+@media screen and (max-width: 600px)
+{
+   .row{
+      flex-direction: column;
+      justify-content: space-around;
+      margin-top: 50px;
+      
+
+   }
+   .wapp-call-us-img{
+      width: 50px;
+      transition: transform 0.3s ease;
+   }
+   .container{
+      margin-top: 70px;
+      
+   }
+   .container:hover{
+       transform: none;
+   }
+
+   .learn-more-button:hover{
+      transition: transform 0.3s ease;
+      transform: scale(1.1);
+   }
+   .fa-heart:hover{
+      transition: transform 0.3s ease;
+      font-stretch: expanded;
+   }
+
+
+
+   .dropdown-container{
+      flex-wrap: wrap;
+      
+   }
+   .dropdown-section{
+      width: 40%;
+      flex-direction:column;
+      margin-top: 90px;
+   }
+   
+   .select{
+      font-size: 12px;
+      display: inline-block;
+   }
+
+  
+ 
+}
+
+
+@media screen and (min-width:601px) and  (max-width: 768px){
       .row{
          flex-direction: column;
          margin-top: 50px;
@@ -395,13 +564,11 @@ body{
 
       }
 
-      .wapp-call-us-img{
-         width: 40px;
-         transition: transform 0.3s ease;
-      }
       .container{
          margin-top: 70px;
+         
       }
+
       .dropdown-container{
          flex-wrap: wrap;
       }
@@ -413,7 +580,7 @@ body{
 
 }
 
-@media screen and (max-width: 970px){
+@media screen and (min-width:768px) and  (max-width: 992px){
    .row{
       flex-direction: column;
       margin-top: 50px;
@@ -421,5 +588,6 @@ body{
    .container{
       margin-top: 120px;
    }
+
 
 }
