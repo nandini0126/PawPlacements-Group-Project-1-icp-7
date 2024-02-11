@@ -48,9 +48,7 @@ body{
    height: 50px;
 }
 
-.a:hover{
-   border-bottom: 1px solid black;
-}
+
 .row{
    display: flex;
    justify-content: space-around;
@@ -81,9 +79,7 @@ body{
    border: 1px solid #2f0468;
 }
 
-.footer .card{
-    border: none;
-}
+
 .cat-name{
    text-align: center;
    color:#2f0468;
@@ -174,94 +170,37 @@ body{
   background-color: #3b1b65;
   color:#94cbff;
 }
-
-
-
-
 .navbar{
-   background-color: #94cbff;
-   padding: 20px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
+    background-color: #94cbff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}    
 .logo{
-   height: 80px;
+    height: 80px;
 }
-a.nav-text{
-   font-family: "Aclonica", sans-serif;
-   font-style: normal;
-   color:#2f0468;
-   text-decoration: none;
-   font-size: 16px;
-   padding: 15px;
-   margin: 10px;
+.nav-text{
+    color: #2f0468;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
 }
-
 .nav-text:hover{
-   color: #94cbff;
-   background-color: #2f0468;
-   border-radius: 30px;
+    color: #94cbff;
+    background-color: #2f0468;
+    border-radius: 30px;
+    transition: 0.5s;
+}    
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
-
-
-.footer{
-   margin-top: 30px;
-   background-color: #94cbff;
-   padding: 20px;
-   margin-top: 150px;
-   font-family: "Aclonica", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.footer-container{
-   padding: 20px;
-   display: flex;
-   justify-content: space-between;
-}
-.card{
-   display: block;
-}
-.footer-main-logo{
-   width: 250px;
-}
-.footer-logo-section{
-   width: 250px;
-   color: #2f0468;
-   margin-top: 20px;
-}
-.footer-contact{
-   width: 300px;
-}
-.quick-links-contain{
-   text-decoration: none;
-   color: #2f0468;
-}
-.footer-social{
-   text-align: center;
-}
-.social-text{
-   font-family: "Aclonica", sans-serif;
-   font-weight: 400;
-   font-style: normal;
-
-}
-.contact-info{
-   color: #2f0468;
-   display: flex;
-   margin-top: 10px;
-}
-.contact-text{
-   text-decoration: none;
-   color: #2f0468;
-   margin-left: 10px;
-}
-h4{
-   font-size: 22px;
-
-}
        
 /* whatsspp call us section  */
 .wapp-call-us-div{

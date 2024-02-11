@@ -57,7 +57,7 @@ body{
 .head-left{
     padding: 20px;
 }
-.btn{
+.bttn{
     background-color: #2f0468;
     color: #94cbff;
     border: none;
@@ -163,11 +163,12 @@ body{
     font-size: 25px;
     color: #2f0468;
     margin-top: 100px;
+    margin-bottom: 0px;
 }
 
 
 .footer{
-    margin-top: 100px;
+    margin-top: 150px;
     background-color: #94cbff;
     padding: 20px;
 }
@@ -176,7 +177,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.card{
+.cart{
     display: block;
 }
 .footer-main-logo{
@@ -212,7 +213,12 @@ h4{
     font-size: 22px;
 
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 599px)
+{
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
     .hamburger{
         visibility: visible;
         height: 40px;
@@ -233,9 +239,16 @@ h4{
     .head-left{
         padding: 10px;
     }
-    .btn{
+    .bttn{
         padding: 15px;
         font-size: 13px;
+    }
+    .pet-row{
+        flex-wrap: wrap;
+        margin: 2px 30px;
+    }
+    .pets-head{
+        font-size: 20px;
     }
     .footer-container{
         flex-wrap: wrap;
@@ -266,7 +279,7 @@ h4{
         flex-wrap: wrap;
     }
 }
-@media screen and (min-width: 800px) and (max-width: 992px){
+@media screen and (min-width: 769px) and (max-width: 992px){
     .hamburger{
         display: none;
     }
@@ -284,7 +297,7 @@ h4{
     .head-img{
         height: 350px;
     }  
-    .btn{
+    .bttn{
         padding: 17px;
         font-size: 14px;
     }
