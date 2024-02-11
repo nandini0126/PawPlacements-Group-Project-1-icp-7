@@ -9,36 +9,35 @@ body {
   font-weight: 400;
 }
 
-.navbar {
-  background-color: #94cbff;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
+.navbar{
+    background-color: #94cbff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
 }
-
-.logo {
-  height: 60px;
+.logo{
+    height: 60px;
 }
-
-.nav-text {
-  color: #2f0468;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 15px;
-  margin: 10px;
-  border-radius: 20px;
+.nav-text{
+    color: #2f0468;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
 }
-
-.nav-text:hover {
-  color: #94cbff;
-  background-color: #2f0468;
-  border-radius: 20px;
-  transition: 0.4s;
+.nav-text:hover{
+    color: #94cbff;
+    background-color: #2f0468;
+    border-radius: 30px;
+    transition: 0.5s;
+}    
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contact-container {
@@ -46,8 +45,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     border: 2px solid #2f0468;
-    margin-top: 40px;
-}
+}    
 
 .contact-container:hover {
     border-radius: 10px;
@@ -61,8 +59,7 @@ body {
 }
 
 .dog-img {
-  width: 350px;
-  margin-left: 130px;
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -70,6 +67,7 @@ body {
   flex: 1 1 50%;
   box-sizing: border-box;
   padding: 40px 0 0 40px;
+  margin-top: 100px;
 }
 
 .info {
@@ -159,6 +157,7 @@ h1:hover{
     padding: 20px;
     display: flex;
     justify-content: space-between;
+
 }
 .card{
     display: block;
@@ -169,7 +168,7 @@ h1:hover{
 .footer-logo-section{
     width: 250px;
     color: #2f0468;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .footer-contact{
     width: 300px;
@@ -177,15 +176,10 @@ h1:hover{
 .quick-links-contain{
     text-decoration: none;
     color: #2f0468;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
 }
 
-.quick-links  a {
-    
-    text-transform: capitalize;
-    color: #2f0468;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
 .quick-links  a:hover{
     color: #2f0468;
     padding-left: 8px;
@@ -212,6 +206,7 @@ h1:hover{
 }
 .contact-text {
     color: #2f0468;
+    text-decoration: none;
     transition: all 0.5s ease;
     text-decoration: none;
 }
@@ -220,6 +215,9 @@ h1:hover{
 }
 .contact-text1{
     color: #2f0468;
+}
+h4{
+    font-size: 20px;
 }
 
 /* Media Queries */
