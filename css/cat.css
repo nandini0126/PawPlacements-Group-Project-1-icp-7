@@ -179,32 +179,33 @@ body{
 
 
 
-.navbar{
+.navbar {
    background-color: #94cbff;
    padding: 20px;
    display: flex;
    justify-content: space-between;
    align-items: center;
-}
-.logo{
+ }
+ 
+ .logo {
    height: 80px;
-}
-a.nav-text{
-   font-family: "Aclonica", sans-serif;
-   font-style: normal;
-   color:#2f0468;
+ }
+ 
+ .nav-text {
+   color: #2f0468;
    text-decoration: none;
-   font-size: 16px;
+   font-size: 18px;
    padding: 15px;
    margin: 10px;
-}
-
-.nav-text:hover{
+   border-radius: 20px;
+ }
+ 
+ .nav-text:hover {
    color: #94cbff;
    background-color: #2f0468;
-   border-radius: 30px;
-}
-
+   border-radius: 20px;
+   transition: 0.4s;
+ }
 
 
 .footer{
