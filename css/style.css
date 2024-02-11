@@ -19,8 +19,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    width: 100%;
 }    
 .logo{
     height: 80px;
@@ -99,6 +97,7 @@ body{
 .main-banner{
     margin-top: 60px;
     padding: 20px;
+    background-color: #94cbff;
 }
 .banner{
     display: flex;
@@ -117,6 +116,7 @@ body{
     margin: 10px;
     border-radius: 20px;
     box-shadow: 0 0 10px 2px black;
+    background-color: white;
 }
 .banner-img{
     height: 100px;
@@ -134,7 +134,7 @@ body{
     font-size: 15px;
 }
 .learn-more-btn {
-    background-color: #ffff;
+    background-color: #94cbff;
     margin: 30px 110px;
     padding: 10px 20px;
     color: #2f0468;
@@ -152,6 +152,20 @@ body{
     color: #ffff;
     transition: 0.3s ease;
 }
+.pet-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.pets-head{
+    text-align: center;
+    font-size: 25px;
+    color: #2f0468;
+    margin-top: 100px;
+}
+
+
 .footer{
     margin-top: 100px;
     background-color: #94cbff;
