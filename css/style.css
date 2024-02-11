@@ -246,6 +246,9 @@ h4{
         width: 150px;
         padding: 20px;
     }
+    .banner{
+        flex-wrap: wrap;
+    }
 }
 @media screen and (min-width: 800px) and (max-width: 992px){
     .hamburger{
