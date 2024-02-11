@@ -6,25 +6,38 @@ body{
     font-family: "Aclonica", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 20px;
 }
 .card{
     border: 2px solid #2f0468;
-    width: 500px;
+    width: 530px;
     margin: 50px 400px;
     padding: 20px;
     border-radius: 20px;
     background-color: #94cbff;
+    color: #2f0468;
+}
+.card:hover{
+    box-shadow: 0 5px 28px #2f0468;
+    transform: translateX(-10px); 
+    color: #2f0468;
+    transition: 0.3s;
 }
 h1{
     text-align: center;
     color: #2f0468;
+}
+h1:hover{
+    transform: rotate(360deg);
+    transition: all 0.8s ease;
 }
 .main-section{
     margin-top: 20px;
     color: #2f0468;
 }
 .section{
-    margin: 10px 0;
+    margin: 10px -3px;
+    padding-left: 8px;
 }
 .label{
     font-size: 18px;
@@ -34,6 +47,12 @@ h1{
     width: 100%;
     border-radius: 5px;
     border: 1.5px solid #2f0468;
+    color: #2f0468;
+}
+.text:hover{
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid #2f0468;
 }
 .icon{
     font-size: 30px;
@@ -62,8 +81,18 @@ h1{
 .or{
     text-align: center;
 }
-.signup-btn{
-    border-bottom: 2px solid #2f0468;
+
+.sign-btn{
+    width: 530px;
+    height: 40px;
+    background-color: #2f0468;
+    color: #94cbff;
+    border-radius: 30px;
+    border: 1.8px solid #2f0468;
+    font-family: "Aclonica", sans-serif;
+}
+.log{
+    text-decoration: none;
 }
 .terms{
     font-size: 12px;
