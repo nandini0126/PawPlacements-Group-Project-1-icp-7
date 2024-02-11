@@ -134,10 +134,10 @@ body{
     font-size: 15px;
 }
 .learn-more-btn {
-    background-color: #94cbff;
+    background-color: #2f0468;
     margin: 30px 110px;
     padding: 10px 20px;
-    color: #2f0468;
+    color: #94cbff;
     font-weight: bold;
     text-decoration: none;
     border:solid 2px #2f0468;
@@ -148,8 +148,8 @@ body{
 }
 
 .learn-more-btn:hover {
-    background-color: #2f0468;
-    color: #ffff;
+    background-color: #94cbff;
+    color: #2f0468;
     transition: 0.3s ease;
 }
 .pet-row{
