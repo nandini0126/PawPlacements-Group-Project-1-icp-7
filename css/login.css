@@ -35,7 +35,6 @@ body{
     width: 350px;
   }
   h1 {
-    font-size: 3.5rem;
     color: #2f0468;
     text-align: center;
   }
@@ -132,6 +131,9 @@ body{
   }
   .register p a:hover {
     text-decoration: underline;
+  }
+  .decorate{
+    text-decoration: none;
   }
 
   
