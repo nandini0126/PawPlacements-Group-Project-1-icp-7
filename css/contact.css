@@ -94,7 +94,10 @@ body {
 h1{
      text-align: center; 
 }
-
+h1:hover{
+    transform: rotate(360deg);
+    transition: all 0.8s ease;
+}
 .Contact{
     display: grid;
     row-gap: 1rem;
@@ -167,9 +170,23 @@ h1{
     text-decoration: none;
     color: #2f0468;
 }
+
+.quick-links  a {
+    
+    text-transform: capitalize;
+    color: #2f0468;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.quick-links  a:hover{
+    color: #2f0468;
+    padding-left: 8px;
+}
+
 .footer-social{
     text-align: center;
 }
+
 .social-text{
     font-family: "Aclonica", sans-serif;
     font-weight: 400;
@@ -180,8 +197,19 @@ h1{
     color: #2f0468;
     display: flex;
     margin-top: 10px;
+    transition: all 0.3s ease;
 }
-.contact-text{
+.contact-info:hover{
+    padding-left: 8px;
+}
+.contact-text {
+    color: #2f0468;
+    transition: all 0.5s ease;
+}
+.contact-text:hover{
+    padding-left: 12px;
+}
+.contact-text1{
     color: #2f0468;
 }
 
