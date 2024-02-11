@@ -151,7 +151,7 @@ body{
     transition: 0.3s ease;
 }
 .footer{
-    margin-top: 100px;
+    margin-top: 30px;
     background-color: #94cbff;
     padding: 20px;
 }
@@ -178,9 +178,23 @@ body{
     text-decoration: none;
     color: #2f0468;
 }
+
+.quick-links  a {
+    
+    text-transform: capitalize;
+    color: #2f0468;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.quick-links  a:hover{
+    color: #2f0468;
+    padding-left: 8px;
+}
+
 .footer-social{
     text-align: center;
 }
+
 .social-text{
     font-family: "Aclonica", sans-serif;
     font-weight: 400;
@@ -191,10 +205,20 @@ body{
     color: #2f0468;
     display: flex;
     margin-top: 10px;
+    transition: all 0.3s ease;
 }
-h4{
-    font-size: 22px;
-
+.contact-info:hover{
+    padding-left: 8px;
+}
+.contact-text {
+    color: #2f0468;
+    transition: all 0.5s ease;
+}
+.contact-text:hover{
+    padding-left: 12px;
+}
+.contact-text1{
+    color: #2f0468;
 }
 @media screen and (max-width: 800px){
     .hamburger{

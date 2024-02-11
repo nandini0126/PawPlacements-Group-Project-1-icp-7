@@ -201,15 +201,10 @@ a.nav-text{
 
 
 
-
 .footer{
    margin-top: 30px;
    background-color: #94cbff;
    padding: 20px;
-   margin-top: 150px;
-   font-family: "Aclonica", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 .footer-container{
    padding: 20px;
@@ -234,9 +229,23 @@ a.nav-text{
    text-decoration: none;
    color: #2f0468;
 }
+
+.quick-links  a {
+   
+   text-transform: capitalize;
+   color: #2f0468;
+   text-decoration: none;
+   transition: all 0.3s ease;
+}
+.quick-links  a:hover{
+   color: #2f0468;
+   padding-left: 8px;
+}
+
 .footer-social{
    text-align: center;
 }
+
 .social-text{
    font-family: "Aclonica", sans-serif;
    font-weight: 400;
@@ -247,16 +256,22 @@ a.nav-text{
    color: #2f0468;
    display: flex;
    margin-top: 10px;
+   transition: all 0.3s ease;
 }
-.contact-text{
-   text-decoration: none;
+.contact-info:hover{
+   padding-left: 8px;
+}
+.contact-text {
    color: #2f0468;
-   margin-left: 10px;
+   transition: all 0.5s ease;
 }
-h4{
-   font-size: 22px;
+.contact-text:hover{
+   padding-left: 12px;
+}
+.contact-text1{
+   color: #2f0468;
+}
 
-}
        
 /* whatsspp call us section  */
 .wapp-call-us-div{
