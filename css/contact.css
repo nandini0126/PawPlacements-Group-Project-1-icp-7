@@ -15,10 +15,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 .logo {
-  height: 80px;
+  height: 60px;
 }
 
 .nav-text {
@@ -42,6 +46,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     border: 2px solid #2f0468;
+    margin-top: 40px;
 }
 
 .contact-container:hover {
