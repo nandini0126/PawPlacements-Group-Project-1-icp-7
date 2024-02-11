@@ -229,6 +229,7 @@ body{
 }
 .contact-text {
     color: #2f0468;
+    text-decoration: none;
     transition: all 0.5s ease;
 }
 .contact-text:hover{
