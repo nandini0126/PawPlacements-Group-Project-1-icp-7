@@ -97,6 +97,7 @@ body{
 .main-banner{
     margin-top: 60px;
     padding: 20px;
+    background-color: #94cbff;
 }
 .banner{
     display: flex;
@@ -115,6 +116,7 @@ body{
     margin: 10px;
     border-radius: 20px;
     box-shadow: 0 0 10px 2px black;
+    background-color: #ffff;
 }
 .banner-img{
     height: 100px;
@@ -165,7 +167,15 @@ body{
 }
 .cat-info{
     font-size: 13px;
- }
+}
+.home-dog{
+    text-decoration: none;
+
+}
+.home-dog:hover{
+    color: #94cbff;
+}
+
 
 
 
@@ -179,6 +189,7 @@ body{
     padding: 20px;
     display: flex;
     justify-content: space-between;
+
 }
 .card{
     display: block;
@@ -189,7 +200,7 @@ body{
 .footer-logo-section{
     width: 250px;
     color: #2f0468;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .footer-contact{
     width: 300px;
@@ -197,15 +208,10 @@ body{
 .quick-links-contain{
     text-decoration: none;
     color: #2f0468;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
 }
 
-.quick-links  a {
-    
-    text-transform: capitalize;
-    color: #2f0468;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
 .quick-links  a:hover{
     color: #2f0468;
     padding-left: 8px;
@@ -241,6 +247,9 @@ body{
 }
 .contact-text1{
     color: #2f0468;
+}
+h4{
+    font-size: 20px;
 }
 
 
