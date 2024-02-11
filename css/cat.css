@@ -48,9 +48,7 @@ body{
    height: 50px;
 }
 
-.a:hover{
-   border-bottom: 1px solid black;
-}
+
 .row{
    display: flex;
    justify-content: space-around;
@@ -81,9 +79,7 @@ body{
    border: none;
 }
 
-.footer .card{
-    border: none;
-}
+
 .cat-name{
    text-align: center;
    color:#2f0468;
@@ -125,22 +121,6 @@ body{
    box-shadow: 0px 0px 8px 0.5px black;
    padding: 1px;
 }
-.btn {
-   margin: 10px -10px;
-   padding: 10px 20px;
-   color: #6d32bb;
-   font-weight: bold;
-   text-decoration: none;
-   border:solid 2px #6d32bb;
-   border-radius: 15px;
-   font-family: "Aclonica", sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   border-radius: 25px;
-   border: 1px solid #6d32bb;
-   box-shadow: 0px 0px 8px 1px black;
-   background-color: white;
-}
 
 .container:hover{
    transition: transform 0.3s ease;
@@ -148,22 +128,6 @@ body{
    box-shadow: 0px 0px 18px 0.5px black;
 }
 
-.btn{
-   height: 40px;
-   background-color: #ba9ae4;
-   border: none;
-   border-radius: 10px;
-   color: #2f0468 ;
-   font-size: 15px;
-   font-weight: bolder;
-   transition: 0.3s ease-out;
-}
-
-.btn:hover{
-   background-color: #6d32bb;
-   color: white;
-   transition: 0.3s ease;
-}
 
 .button{
    display: flex;
@@ -178,112 +142,7 @@ body{
   background-color: #3b1b65;
   color:#94cbff;
 }
-
-
-
-
-.navbar {
-   background-color: #94cbff;
-   padding: 20px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
- 
- .logo {
-   height: 80px;
- }
- 
- .nav-text {
-   color: #2f0468;
-   text-decoration: none;
-   font-size: 18px;
-   padding: 15px;
-   margin: 10px;
-   border-radius: 20px;
- }
- 
- .nav-text:hover {
-   color: #94cbff;
-   background-color: #2f0468;
-   border-radius: 20px;
-   transition: 0.4s;
- }
-
-
-.footer{
-   margin-top: 30px;
-   background-color: #94cbff;
-   padding: 20px;
-}
-.footer-container{
-   padding: 20px;
-   display: flex;
-   justify-content: space-between;
-}
-.card{
-   display: block;
-   border-top: none;
-}
-.footer-main-logo{
-   width: 250px;
-}
-.footer-logo-section{
-   width: 250px;
-   color: #2f0468;
-   margin-top: 20px;
-}
-.footer-contact{
-   width: 300px;
-}
-.quick-links-contain{
-   text-decoration: none;
-   color: #2f0468;
-}
-.quick-links{
-   text-align: end;
-}
-.quick-links  a {
-   
-   text-transform: capitalize;
-   color: #2f0468;
-   text-decoration: none;
-   transition: all 0.3s ease;
-}
-.quick-links  a:hover{
-   color: #2f0468;
-   padding-left: 8px;
-}
-
-.footer-social{
-   text-align: center;
-}
-
-.social-text{
-   font-family: "Aclonica", sans-serif;
-   font-weight: 400;
-   font-style: normal;
-
-}
-.contact-info{
-   color: #2f0468;
-   display: flex;
-   margin-top: 10px;
-   transition: all 0.3s ease;
-}
-.contact-info:hover{
-   padding-left: 8px;
-}
-.contact-text {
-   color: #2f0468;
-   transition: all 0.5s ease;
-}
-.contact-text:hover{
-   padding-left: 12px;
-}
-.contact-text1{
-   color: #2f0468;
-}
+    
 
        
 /* whatsspp call us section  */
