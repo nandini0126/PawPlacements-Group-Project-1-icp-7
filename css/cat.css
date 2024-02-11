@@ -170,6 +170,7 @@ body{
    left: 85px;
 }
 
+
 .btn:hover{
   background-color: #3b1b65;
   color:#94cbff;
@@ -308,8 +309,8 @@ a.nav-text{
 }
 
 .learn-more-button:hover {
-   background-color: #6d32bb;
-   color: white;
+   background-color: #2f0468;
+   color:#94cbff;
    transition: 0.3s ease;
 }
 
