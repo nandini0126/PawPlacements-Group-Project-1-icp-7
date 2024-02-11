@@ -163,10 +163,15 @@ body{
     margin-top: 100px;
     margin-bottom: 0px;
 }
+.cat-info{
+    font-size: 13px;
+ }
+
+
 
 
 .footer{
-    margin-top: 150px;
+    margin-top: 30px;
     background-color: #94cbff;
     padding: 20px;
 }
@@ -175,7 +180,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.cart{
+.card{
     display: block;
 }
 .footer-main-logo{
@@ -228,6 +233,7 @@ body{
 .contact-text {
     color: #2f0468;
     transition: all 0.5s ease;
+    text-decoration: none;
 }
 .contact-text:hover{
     padding-left: 12px;
@@ -235,6 +241,8 @@ body{
 .contact-text1{
     color: #2f0468;
 }
+
+
 @media screen and (max-width: 599px)
 {
 
