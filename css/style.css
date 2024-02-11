@@ -228,7 +228,7 @@ h4{
         margin-left: 10px;
     }
     .quick-links{
-        margin-right: 160px;
+        margin-right: 120px;
     }
     .footer-contact{
         margin-left: 50px;
@@ -245,6 +245,9 @@ h4{
         flex-wrap: wrap;
         width: 150px;
         padding: 20px;
+    }
+    .banner{
+        flex-wrap: wrap;
     }
 }
 @media screen and (min-width: 800px) and (max-width: 992px){
