@@ -75,10 +75,10 @@ body{
 
 
 .card{
-   border-radius: 10px;
+   
    width: 300px;
    height: 185px;
-   border: 1px solid #2f0468;
+   border: none;
 }
 
 .footer .card{
@@ -122,6 +122,8 @@ body{
 .container{
    position: relative;
    border-radius: 25px; 
+   box-shadow: 0px 0px 8px 0.5px black;
+   padding: 1px;
 }
 .btn {
    margin: 10px -10px;
@@ -143,6 +145,7 @@ body{
 .container:hover{
    transition: transform 0.3s ease;
    transform: scale(1.1);
+   box-shadow: 0px 0px 18px 0.5px black;
 }
 
 .btn{
@@ -237,7 +240,9 @@ body{
    text-decoration: none;
    color: #2f0468;
 }
-
+.quick-links{
+   text-align: end;
+}
 .quick-links  a {
    
    text-transform: capitalize;
@@ -536,8 +541,9 @@ body{
 
       .container{
          margin-top: 70px;
+         
       }
-      
+
       .dropdown-container{
          flex-wrap: wrap;
       }
