@@ -47,14 +47,14 @@ body{
     position: relative;
     margin: 40px 0;
     max-width: 450px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #2f0468;
   }
   .inputbox label {
     position: absolute;
     top: 50%;
     left: 5px;
     transform: translateY(-50%);
-    color: black;
+    color: #2f0468;
     font-size: 1rem;
     pointer-events: none;
     transition: all 0.4s ease-in-out;
@@ -71,7 +71,7 @@ body{
     outline: none;
     font-size: 1.1rem;
     padding: 0 15px 0 5px;
-    color: black;
+    color: #2f0468;
   }
   .inputbox ion-icon {
     position: absolute;
@@ -83,7 +83,7 @@ body{
   .forgot {
     margin: 35px 0;
     font-size: 0.85rem;
-    color: black;
+    color: #2f0468;
     display: flex;
     justify-content: space-between;
   }
@@ -95,7 +95,7 @@ body{
     margin-right: 3px;
   }
   .forgot a {
-    color: black;
+    color: #2f0468;
     text-decoration: none;
     font-weight: 600;
   }
@@ -120,13 +120,13 @@ body{
   }
   .register {
     font-size: 0.9rem;
-    color: black;
+    color: #2f0468;
     text-align: center;
     margin: 25px 0 10px;
   }
   .register p a {
     text-decoration: none;
-    color: black;
+    color: #2f0468;
     font-weight: 600;
   }
   .register p a:hover {
