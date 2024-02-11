@@ -48,9 +48,7 @@ body{
    height: 50px;
 }
 
-.a:hover{
-   border-bottom: 1px solid black;
-}
+
 .row{
    display: flex;
    justify-content: space-around;
@@ -81,9 +79,7 @@ body{
    border: none;
 }
 
-.footer .card{
-    border: none;
-}
+
 .cat-name{
    text-align: center;
    color:#2f0468;
@@ -177,6 +173,35 @@ body{
 .btn:hover{
   background-color: #3b1b65;
   color:#94cbff;
+}
+.navbar{
+    background-color: #94cbff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}    
+.logo{
+    height: 80px;
+}
+.nav-text{
+    color: #2f0468;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.nav-text:hover{
+    color: #94cbff;
+    background-color: #2f0468;
+    border-radius: 30px;
+    transition: 0.5s;
+}    
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
