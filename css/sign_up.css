@@ -6,6 +6,7 @@ body{
     font-family: "Aclonica", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 20px;
 }
 .card{
     border: 2px solid #2f0468;
@@ -14,11 +15,12 @@ body{
     padding: 20px;
     border-radius: 20px;
     background-color: #94cbff;
+    color: #2f0468;
 }
 .card:hover{
     box-shadow: 0 5px 28px #2f0468;
     transform: translateX(-10px); 
-    color: #94cbff;
+    color: #2f0468;
     transition: 0.3s;
 }
 h1{
@@ -45,6 +47,7 @@ h1:hover{
     width: 100%;
     border-radius: 5px;
     border: 1.5px solid #2f0468;
+    color: #2f0468;
 }
 .text:hover{
     height: 40px;
@@ -78,8 +81,18 @@ h1:hover{
 .or{
     text-align: center;
 }
-.signup-btn{
-    border-bottom: 2px solid #2f0468;
+
+.sign-btn{
+    width: 530px;
+    height: 40px;
+    background-color: #2f0468;
+    color: #94cbff;
+    border-radius: 30px;
+    border: 1.8px solid #2f0468;
+    font-family: "Aclonica", sans-serif;
+}
+.log{
+    text-decoration: none;
 }
 .terms{
     font-size: 12px;
