@@ -239,10 +239,9 @@ body{
 .quick-links-contain{
    text-decoration: none;
    color: #2f0468;
+   margin-left: 20px;
 }
-.quick-links{
-   text-align: end;
-}
+
 .quick-links  a {
    
    text-transform: capitalize;
