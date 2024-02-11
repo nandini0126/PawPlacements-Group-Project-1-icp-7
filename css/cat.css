@@ -420,26 +420,30 @@ body{
 /**************** header and footer media queries *****************/
 @media screen and (max-width: 800px){
    .hamburger{
-       visibility: visible;
-       height: 40px;
-   }
-   .nav-text{
-       display: none;
-   }
-   .logo{
-       height: 50px;
-   }
-   .head{
-       font-size: 14px;
-       margin: 10px 8px;
-   }
-   .head-img{
-       height: 300px;
-   }
-   .btn{
-       padding: 15px;
-       font-size: 13px;
-   }
+      visibility: visible;
+      height: 40px;
+  }
+  .nav-text{
+      display: none;
+  }
+  .logo{
+      height: 50px;
+  }
+ 
+  .footer-container{
+   flex-wrap: wrap;
+}
+.footer-social{
+   margin-left: 10px;
+}
+.quick-links{
+   margin-right: 120px;
+}
+.footer-contact{
+   margin-left: 50px;
+}
+
+
 }
 
 
@@ -452,27 +456,21 @@ body{
    }
    .logo{
        height: 60px;
-   }
-   .nav-text{
-       font-size: 17px;
-       padding: 15px 13px;
-   }
-   .head{
-       font-size: 15px;
-       margin: 10px;
-   }
-   .head-img{
-       height: 350px;
-   }  
-   .btn{
-       padding: 17px;
-       font-size: 14px;
-   }
+   
+}
+
 }
 @media screen and (min-width: 992px){
    .hamburger{
-       display: none;
-   }
+      display: none;
+  }
+  .logo{
+      height: 60px;
+  }
+  .nav-text{
+      font-size: 17px;
+      padding: 15px 13px;
+  }
 }
 
 
