@@ -15,10 +15,9 @@ Welcome to our **Paw Placements Website!** This platform aims to connect adorabl
   - [Contributors](#contributors)
   - [Contact](#contact)
 
-
 ## Features
 
-Our Pet Adoption Website offers the following features:
+**Our Pet Adoption Website offers the following features:**
 
 - **Search :** Easily search for pets based on type, breed, age, and more.
 - **Browse :** Explore a variety of available pets for adoption with detailed profiles.
