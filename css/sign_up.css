@@ -8,6 +8,12 @@ body{
     font-style: normal;
     font-size: 20px;
 }
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
 .card{
     border: 2px solid #2f0468;
     width: 530px;
@@ -32,7 +38,7 @@ h1:hover{
     transition: all 0.8s ease;
 }
 .main-section{
-    margin-top: 20px;
+    margin-top: 10px;
     color: #2f0468;
 }
 .section{
