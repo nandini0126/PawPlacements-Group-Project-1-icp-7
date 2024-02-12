@@ -220,44 +220,9 @@ h4{
     font-size: 20px;
 }
 
-/* Media Queries */
-@media screen and (max-width: 800px) {
-  /* img + form */
-  .contact-container {
-    width: 768px;
-    margin: auto;
-    flex-wrap: wrap;
-  }
-  .contact-img {
-    width: 700px;
-    margin: auto;
-  }
-  .contact-form {
-    width: 700px;
-    margin: auto;
-  }
-  .dog-img {
-    width: auto;
-    height: auto;
-  }
 
-  /* contact + map */
-  .info {
-    width: 768px;
-    margin: auto;
-    flex-wrap: no-wrap;
-  }
-  .basic {
-    width: 700px;
-    margin: auto;
-    text-align: start;
-  }
-  .maps {
-    width: 700px;
-    margin: auto;
-  }
-}
-@media screen and (max-width: 800px){
+@media screen and (max-width: 599px)
+{
     .hamburger{
         visibility: visible;
         height: 40px;
@@ -268,47 +233,104 @@ h4{
     .logo{
         height: 50px;
     }
-    .head{
-        font-size: 14px;
-        margin: 8px 0px;
+    .footer-container{
+        flex-wrap: wrap;
     }
-    .head-img{
-        height: 280px;
+    .cart{
+        margin-top: 25px;
+        margin-right: 150px;
     }
-    .head-left{
-        padding: 10px;
+    .footer-main-logo{
+        width: 350px;
     }
-    .btn{
+    .footer-container-info{
+        margin-left: 40px;
+    }
+    .footer-social{
+        text-align: start;
+    }
+    .contact-container{
+        width: 93%;
+
+    }
+    .contact-form {
+        margin-top: 0px;
+        width: 60%;
+    }
+    .dog-img{
+        width: 80%;
+        margin-left: 30px;
+    }
+    .d{
         padding: 15px;
-        font-size: 13px;
+        font-size: 15px;
+        width: 90px;
+    }
+    .int, .int1{
+        height: 20px;
+        width: 300px;
+    }
+    iframe{
+        width: 100%;
+    }
+   
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+    .hamburger{
+        visibility: visible;
+        height: 40px;
+    }
+    .nav-text{
+        display: none;
+    }
+    .logo{
+        height: 50px;
     }
     .footer-container{
         flex-wrap: wrap;
     }
+    .cart{
+        margin-top: 25px;
+        margin-right: 150px;
+    }
+    .footer-main-logo{
+        width: 350px;
+    }
+    .footer-container-info{
+        margin-left: 40px;
+    }
     .footer-social{
-        margin-left: 10px;
+        text-align: start;
     }
-    .quick-links{
-        margin-right: 160px;
+    .contact-container{
+        width: 93%;
     }
-    .footer-contact{
-        margin-left: 50px;
+    .contact-form {
+        margin-top: 0px;
+        width: 60%;
     }
-    .section{
-        flex-wrap: wrap;
-        margin: 0;
+    .dog-img{
+        width: 80%;
+        margin-left: 10%;
+        
     }
-    .section-icon{
-        height: 100px;
+    .d{
+        padding: 15px;
+        font-size: 18px;
+        width: 120px;
     }
-    .section-card{
-        margin: 10px 100px;
-        flex-wrap: wrap;
-        width: 150px;
-        padding: 20px;
+    .int, .int1{
+        height: 25px;
+        width: 400px;
     }
+    iframe{
+        width: 100%;
+    }
+
 }
-@media screen and (min-width: 800px) and (max-width: 992px){
+@media screen and (min-width: 769px) and (max-width: 992px){
     .hamburger{
         display: none;
     }
@@ -318,17 +340,43 @@ h4{
     .nav-text{
         font-size: 17px;
         padding: 15px 13px;
+        margin-left: 0;
     }
     .head{
         font-size: 15px;
         margin: 10px;
     }
-    .head-img{
-        height: 350px;
-    }  
-    .btn{
-        padding: 17px;
-        font-size: 14px;
+    .cart{
+        margin-top: 25px;
+        margin-right: 150px;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .cart{
+        margin-top: 25px;
+        margin-right: 40px;
+        width: 40%;
+    }
+    .footer-main-logo{
+        width: 300px;
+    }
+    .footer-container-info{
+        margin-left: 40px;
+    }
+    .footer-social{
+        text-align: start;
+    }
+    .dog-img{
+        width: 300px;
+        
+    }
+    .int, .int1{
+        height: 25px;
+        width: 400px;
+    }
+    iframe{
+        width: 100%;
     }
 }
 @media screen and (min-width: 992px){
@@ -336,4 +384,3 @@ h4{
         display: none;
     }
 }
-
