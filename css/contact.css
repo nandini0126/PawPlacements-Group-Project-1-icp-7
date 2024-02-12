@@ -59,8 +59,9 @@ body {
 }
 
 .dog-img {
-  width: 100%;
+  width: 60%;
   border-radius: 8px;
+  margin-left: 150px;
 }
 
 .contact-form {
@@ -368,12 +369,16 @@ h4{
         text-align: start;
     }
     .dog-img{
-        width: 300px;
-        
+        width: 500px;
+        margin-left: 100px;
+    }
+    .contact-form{
+        margin-left: 100px;
+        margin-top: 0;
     }
     .int, .int1{
         height: 25px;
-        width: 400px;
+        width: 500px;
     }
     iframe{
         width: 100%;

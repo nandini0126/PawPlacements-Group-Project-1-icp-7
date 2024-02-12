@@ -274,40 +274,10 @@ body{
 }
 
 /**************** header and footer media queries *****************/
-@media screen and (max-width: 800px){
-   .hamburger{
-      visibility: visible;
-      height: 40px;
-   }
-   .nav-text{
-      display: none;
-   }
-   .logo{
-      height: 50px;
-   }
- 
-  .footer-container{
-   flex-wrap: wrap;
-}
-.footer-social{
-   margin-left: 10px;
-}
-.quick-links{
-   margin-right: 120px;
-}
-.footer-contact{
-   margin-left: 50px;
-}
-
-
-}
 
 
 
-/**********************************other media queries*************************************/
-
-
-/**************  others ********************/
+/**********************************media queries*************************************/
 
 @media screen and (max-width: 600px)
 {
@@ -315,8 +285,6 @@ body{
       flex-direction: column;
       justify-content: space-around;
       margin-top: 50px;
-      
-
    }
    .wapp-call-us-img{
       width: 50px;
@@ -324,12 +292,10 @@ body{
    }
    .container{
       margin-top: 70px;
-      
    }
    .container:hover{
        transform: none;
    }
-
    .learn-more-button:hover{
       transition: transform 0.3s ease;
       transform: scale(1.1);
@@ -338,9 +304,6 @@ body{
       transition: transform 0.3s ease;
       font-stretch: expanded;
    }
-
-
-
    .dropdown-container{
       flex-wrap: wrap;
       
@@ -356,8 +319,6 @@ body{
       display: inline-block;
    }
 
-  
- 
 }
 
 
@@ -401,8 +362,6 @@ body{
       font-size: 17px;
       padding: 15px 13px;
   }
-
-
 }
 
 
