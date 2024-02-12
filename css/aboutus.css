@@ -61,6 +61,7 @@ body{
     border: solid 1px black;
     text-align: center;
     overflow: hidden;
+    margin-top:40px
 }
 .member-name{
     font-size: 30px;
